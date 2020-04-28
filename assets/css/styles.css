@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700 &display=swap');
 
 body{
-    background-color:#cb5b1ccc;
+background-image:linear-gradient(-90deg,#e66114cc,#d33428cb);
     color: #fafafa;
 }
 
@@ -26,7 +26,7 @@ nav #navbar.container.navbar.navbar-expand-lg.navbar-light{
     
 }
 
-#navbarNavDropdown{
+#navbarNavDropdown .nav-link::after:hover{
     
 }
 
@@ -54,15 +54,17 @@ a.dropdown-item{
 #navbarNavDropdown{
   color:#fafafa;  
 }
-/* ---------------------welcome speech -------------------------------------- */
+/* ---------------------home page -------------------------------------- */
 
-.welcome-speech{
-    padding-top: 100px;
-    padding-bottom: 10px;
-   
-   
+.first-experience{
+   text-align: center;}
 
-}
+.theories-used{
+   text-align: center;}
+
+.bio-dynamic{
+   text-align: center;}
+   
 .welcome-speech h1 {
     padding: 20px 20px;
     text-align:center;
@@ -77,23 +79,66 @@ a.dropdown-item{
     font-weight: 200;
 }
 
-
-/* ---------------------about me -------------------------------------- */
-
-.me-blurb{
-    padding-top: 40px;
+/* ---------------------carousel-------------------------------------- */
+.carousel{
+     height: 140px !important;
+    width: 107px !important;
+    text-align: center;
 }
 
- img.welcome{
-    height:302.4px;
-    width: 403.2;
+
+
+
+
+
+/* ---------------------about me -------------------------------------- */
+.me-blurb::before {
+  width: 219px;
+  height: 432px;
+  position: relative;
+  
+}
+.me-blurb::after{
+  content: "";
+ background: url(../img/sat.jpg);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;  
+   background-size: cover;
+    overflow: hidden; 
+}
+
+.me-blurb:hover::after{
+  content: "";
+ background: url(../img/sat.jpg);
+opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;  
+   background-size: cover;
+    overflow: hidden; 
+   
+}
+
+.me-blurb p{
+   font-weight: 700;
+}
+
+.me{
+    padding-top: 10px;
+    background: url(../img/sit.jpg);
+    background-size: cover;
+    overflow: hidden;
+    z-index: inherit;
     
 }
 
-.work-history{
-
-
-}
 
 .history-heading{
 
@@ -105,13 +150,41 @@ a.dropdown-item{
 
 }
 
-.credentials{
-    padding: 40px 20px 20px;
+.pensive::before{
+    height: 747px;
+    width: 1664px;
+    position: relative;
 }
+
+
+}
+
+.pensive::after{
+      background: url(../img/pensive.jpg);
+    background-size: cover;
+    overflow: hidden;
+    top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+
+}
+
+
+
+
+
+.credentials{
+    padding: 40px 20px 20px;}
+
+  
 
 .credentials p{
     font-weight: 400;
 }
+
 .specialisms{
     padding: 40px 20px 20px;
 }
@@ -194,15 +267,6 @@ opacity: 0.5;
    
 }
 
-.anxiety:hover> .overlay {
-    width:100%;
-    height:100%;
-    position:absolute;
-    background-color:#000;
-    opacity:0.5;
-    
-}
-
 .anxiety p{
     color: #fafafa;
     font-weight: 500;
@@ -257,7 +321,8 @@ opacity: 0.5;
 }
 .identity::after{
   content: "";
-background: url("https://images.unsplash.com/photo-1558023131-908cab000962?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1100&q=80") no-repeat;  top: 0;
+background: url("https://images.unsplash.com/photo-1558023131-908cab000962?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1100&q=80") no-repeat;  
+top: 0;
   left: 0;
   bottom: 0;
   right: 0;
@@ -291,11 +356,11 @@ background: url("https://images.unsplash.com/photo-1558023131-908cab000962?ixlib
   width: 249px;
   height: 350px;
   position: relative;
-  
 }
-.child-parent:after{
+.child-parent::after{
   content: "";
 background: url("https://images.unsplash.com/photo-1494451930944-8998635c2123?ixlib=rb-1.2.1&auto=format&fit=crop&w=1951&q=80") no-repeat;
+  top: 0;
 left: 0;
   bottom: 0;
   right: 0;
@@ -305,7 +370,7 @@ left: 0;
     overflow: hidden; 
 }
 
-.child-parent:hover:after{
+.child-parent:hover::after{
   content: "";
 background: url("https://images.unsplash.com/photo-1494451930944-8998635c2123?ixlib=rb-1.2.1&auto=format&fit=crop&w=1951&q=80") no-repeat;
 opacity: 0.5;
@@ -334,7 +399,8 @@ color: black;
 .depression:after{
   content: "";
 background: url("https://images.unsplash.com/photo-1534088568595-a066f410bcda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=989&q=80") no-repeat;
-  left: 0;
+    top: 0;
+left: 0;
   bottom: 0;
   right: 0;
   position: absolute;
@@ -357,6 +423,7 @@ background: url("https://images.unsplash.com/photo-1534088568595-a066f410bcda?ix
     overflow: hidden; 
 }
 
+
 .depression p{
 color: black;
     font-weight: 500;
@@ -371,6 +438,7 @@ color: black;
 .death:after{
   content: "";
 background: url("https://images.unsplash.com/photo-1536611517872-e0d5493e2164?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80") no-repeat;
+    top: 0;
   left: 0;
   bottom: 0;
   right: 0;
@@ -400,31 +468,21 @@ color: black;
 }
 
 
-/* ---------------------carousel-------------------------------------- */
-.issues-slide{
-    padding: 20px 20px 20px;
+
+
+/* ---------------------how i work-------------------------------------- */
+
+.giphy-embed{
+    background-repeat:repeat-x;
 }
 
-.carousel-inner{
+.virtual{
+background: url("https://giphy.com/gifs/nbcsvu-svu-law-and-order-8gIuKzthgPxE7AKuVz");
+background-size: cover;
 
-}
-.carousel-caption{
-    position: absolute;
-    bottom: 40px;
-    color: #3e4852;
-    background-color: #faf;
-    height: 25px;
-    right: 15%; 
-    left: 15%;
-    z-index: 10;
-     text-align: center;
-    
-}
 
-   
 
-.carousel-caption p{
-     color: #3e4852;
+
 }
 /* ---------------------buttons-------------------------------------- */
 
