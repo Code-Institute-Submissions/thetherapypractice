@@ -56,6 +56,11 @@ a.dropdown-item{
 }
 /* ---------------------home page -------------------------------------- */
 
+#fitvid0{
+    
+    
+}
+
 .first-experience{
    text-align: center;}
 
@@ -65,11 +70,16 @@ a.dropdown-item{
 .bio-dynamic{
    text-align: center;}
    
-.welcome-speech h1 {
-    padding: 20px 20px;
-    text-align:center;
-    padding-bottom: 20px;
-    font-family: 'exo',sans-serif;
+.approach-link{
+    color: #fafafa;
+    font-weight: 400;
+    text-decoration: none;
+    
+}
+
+.approach-link:hover{
+    color: grey;
+
 }
 
 .welcome-speech p{
@@ -80,10 +90,11 @@ a.dropdown-item{
 }
 
 /* ---------------------carousel-------------------------------------- */
-.carousel{
-     height: 140px !important;
-    width: 107px !important;
+#collection{
+     height: 215px !important;
+    width: 320px !important;
     text-align: center;
+ 
 }
 
 
@@ -101,7 +112,7 @@ a.dropdown-item{
 .me-blurb::after{
   content: "";
  background: url(../img/sat.jpg);
-  top: 0;
+  
   left: 0;
   bottom: 0;
   right: 0;
@@ -113,7 +124,7 @@ a.dropdown-item{
 
 .me-blurb:hover::after{
   content: "";
- background: url(../img/sat.jpg);
+ background: url(../img/pensive.jpg);
 opacity: 0.5;
   top: 0;
   left: 0;
@@ -126,17 +137,42 @@ opacity: 0.5;
    
 }
 
-.me-blurb p{
-   font-weight: 700;
+.read{
+font-weight: 700;
+overflow:auto;
+color: #fafafa;
+text-align: right;
+}
+.read:hover {
+color: white;
+}
+
+.write {
+font-weight: 700;
+overflow:auto;
+color: #fafafa;
+text-align:!important!left;
+}
+.write:hover {
+color: white;
 }
 
 .me{
     padding-top: 10px;
     background: url(../img/sit.jpg);
-    background-size: cover;
-    overflow: hidden;
-    z-index: inherit;
+    top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+   background-size: cover;
+    overflow: hidden; 
     
+}
+
+.me h1{
+
+padding-top: 10px;
+
 }
 
 
@@ -150,16 +186,22 @@ opacity: 0.5;
 
 }
 
-.pensive::before{
-    height: 747px;
-    width: 1664px;
-    position: relative;
+
+
+.{
+      background: url(../img/pensive.jpg);
+    background-size: cover;
+    overflow: hidden;
+    top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+
 }
 
-
-}
-
-.pensive::after{
+.pensive:hover::after{
       background: url(../img/pensive.jpg);
     background-size: cover;
     overflow: hidden;
