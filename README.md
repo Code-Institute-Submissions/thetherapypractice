@@ -69,6 +69,10 @@ The goal of this project is to create an online extension of the work of Charanj
 * Educate a person with information that only a qulaified professional could share, so that at the very least, Charanjit may gain a recommendation.
 
 
+## User Requirements and Expectations:
+##### Requirements:
+
+
 The therapy practice is  
  Charanjit Has been wanting to create a virtual presence for quite some time, however has never gone through with it becuase of fear of the unknown. She is in her fifties and still pretty afraid of technology. In addition to this, typically psychotherapist, especially in the uk, have been able to rely on word of mouth for their clients. However now that the world is so fast paced and technologly driven, people are a lot more sceptical if you dont even have a website!
 
