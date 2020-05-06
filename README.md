@@ -78,7 +78,7 @@ The goal of this project is to create an online extension of the work of Charanj
 
 
 ##### Expectations:
-* Map to display points of interest (best selling locations).
+* 
 * Can click markers which then display more information and a link to a package website.
 * Interact with sliding elements to select packages.
 * Content is visually satisfying and informative.
