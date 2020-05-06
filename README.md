@@ -133,3 +133,8 @@ Default Styling:
 The background images I chose to use on the about me page are photographs i took of Charanji Dosanjh. we wanted to capture her in a natural yet stylistic way. 
 
 The images used as the background images for the issues on the issues pages are sourced from royalty free websites, each image visually represents the corresponding issue title.
+
+
+## Wireframes: 🔧
+I built the wireframes for this project using <a href="https://balsamiq.com/">Balsamiq mockups</a>
+
