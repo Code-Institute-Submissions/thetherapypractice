@@ -78,12 +78,11 @@ The goal of this project is to create an online extension of the work of Charanj
 
 
 ##### Expectations:
-* 
-* Can click markers which then display more information and a link to a package website.
-* Interact with sliding elements to select packages.
-* Content is visually satisfying and informative.
+* Information on Charanjit Dosanjh as a proffesional.
+* responsive site.
+* all links open onto a blank new web page, so that they dont lose their point on the site.
+* Content is aesthetically pleasing. 
 * Navigation takes user to specific parts of the website.
-* Pop out nav appears in place of navbar on Tablet + Mobile Devices.
 * Form Validation works correctly.
 
 The therapy practice is  
