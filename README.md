@@ -146,3 +146,11 @@ View my wireframes <a href="https://github.com/mayasaffron/thetherapypractice/tr
 
 ## Technologies Used: 👨‍💻
 
+### Languages:
+
+* <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a>
+* <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a>
+* <a href="https://www.w3schools.com/js/">JavaScript</a>
+
+
+
