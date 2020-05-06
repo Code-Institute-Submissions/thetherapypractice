@@ -90,3 +90,6 @@ The goal of this project is to create an online extension of the work of Charanj
 This entire project has been based on the wishes of Charanjit Dosanjh, she wanted a very active role in the design aspect of the project as she felt that it was an extension of her personality and therefore needs to come through in the site.
 She wanted to have a 'warming' colour theme and suggested the colour orange. After looking at some resources such as <a href='https://www.templatemonster.com/blog/warm-cool-color-psychology-web-design/'>this</a> blog post, her suggestion was indeed confirmed as a 'warming' colour! We decided to go with that.
 
+##### Fonts: 
+
+
