@@ -48,9 +48,11 @@ The goal of this project is to create an online extension of the work of Charanj
 
 #### User Stories (in detail)::open_book:
 
-####Annie Lovett (43/ female):
+#### Annie Lovett (43/ female):
 
 > I am not the best at technology at all! I do like it when the services I am interested in has a website because then I can find the contact details and email straight away, whilst I'm on the go! When looking for a Therapist the most important thing to me is, that the rates are listed clearly and the contact information, alike. I already know that I want a therapist, it comes down to the person, the money and how to get in contact for me!
+
+#### Mabel Stone (20/ female):
 
 
 
