@@ -1,7 +1,46 @@
+#The Therapy Practice
+
 <img src="assets/img/flower.png" style="margin: 0;">
 
-The Therapy Practice 
-The therapy practice is an online extension of the work of Charanjit Dosanjh, PsychoTherapist, Occupational Therapist and Hypnotherapist. Charanjit Has been wanting to create a virtual presence for quite some time, however has never gone through with it becuase of fear of the unknown. She is in her fifties and still pretty afraid of technology. In addition to this, typically psychotherapist, especially in the uk, have been able to rely on word of mouth for their clients. However now that the world is so fast paced and technologly driven, people are a lot more sceptical if you dont even have a website!
+Thankyou for visiting my project, please feel free to read through the Read-me and browse my project, *if you have any questions or suggestions head to my Github contact details.* 
+
+Happy Coding!
+
+##Contents
+
+* UX :computer:
+
+    * Project Goals
+    * Target Audience Goals
+    * Site Owner Goals
+    * User Requirements and Expectations
+    * Design Choices 🎨
+        * Fonts
+        * Icons
+        * Colours
+        * Styling
+        * Images
+        * Backgrounds
+
+* Wireframes 🔧
+* Features 🎡
+    * Features that have been developed
+    *  Features that will be implemented in the future
+
+* Technologies Used 👨‍💻
+* Testing 🔌
+* Bugs 🐞
+* Deployment 🚀
+* Credits 💳
+
+
+## UX (User Experience) :control_knobs:
+
+### Project Goals
+The goal of this project is to create an online extension of the work of Charanjit Dosanjh; Psychotherapist, Occupational Therapist, Hypnotherapist and inevitably result in an increase of clients for her to help. The website is aimed toward anyone seeking guidance with their emotional difficulties. The website will be promoting a very personal service (Psychotherapy|)and aims to be inclusive to people of all ages backgrounds and genders. Due to the nature of the service, as whole range of people are likely to be interested and click on the site, therefore the website needs to be particulary accesible for people at all stages of technicalogical understanding. 
+
+The therapy practice is  
+ Charanjit Has been wanting to create a virtual presence for quite some time, however has never gone through with it becuase of fear of the unknown. She is in her fifties and still pretty afraid of technology. In addition to this, typically psychotherapist, especially in the uk, have been able to rely on word of mouth for their clients. However now that the world is so fast paced and technologly driven, people are a lot more sceptical if you dont even have a website!
 
 Strategy
 Business Objectives
