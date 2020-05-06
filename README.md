@@ -91,5 +91,5 @@ This entire project has been based on the wishes of Charanjit Dosanjh, she wante
 She wanted to have a 'warming' colour theme and suggested the colour orange. After looking at some resources such as <a href='https://www.templatemonster.com/blog/warm-cool-color-psychology-web-design/'>this</a> blog post, her suggestion was indeed confirmed as a 'warming' colour! We decided to go with that.
 
 ##### Fonts: 
-
+I chose to use the font <a href="https://fonts.googleapis.com/css?family=Roboto&display=swap">ROBERTO</a> as it is very easy to read. Due to the nature of this website, it would have a lot of text and I was eager to insure it was as palatable as possible. As aforementioned, the focus of the content is to provide an informative yet not overwhelming experience for the potential client, which heavily influenced my decision to choose a font that isn't too ambiguous.
 
