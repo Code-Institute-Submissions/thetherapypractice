@@ -46,7 +46,7 @@ The goal of this project is to create an online extension of the work of Charanj
 * As a user, I want to know what experience the Therapist has, I want to know I am in good hands.
 * As a user I want to be able to book a sessions quickly and easily. 
 
-
+#### User Stories (in detail)::open_book:
 
 The therapy practice is  
  Charanjit Has been wanting to create a virtual presence for quite some time, however has never gone through with it becuase of fear of the unknown. She is in her fifties and still pretty afraid of technology. In addition to this, typically psychotherapist, especially in the uk, have been able to rely on word of mouth for their clients. However now that the world is so fast paced and technologly driven, people are a lot more sceptical if you dont even have a website!
