@@ -61,7 +61,12 @@ The goal of this project is to create an online extension of the work of Charanj
 
 
 #### Site Owner Goals:
-* 
+* Promote themseleves as a virtual psychotherapist. 
+* Generate a stream of new clients. 
+* Provide enough informtaion on the site to entice the types of clients with whom her expertise are best suited. 
+* Clearly display their credentials in a clear and concise format. We live in an age where many people are claiming to be therapists/ advisors, however few have the proffesional experience or indeed education to justify these claims. 
+* Assist people to improve their mental health, irrespective of where they live in the world. 
+* Educate a person with information that only a qulaified professional could share, so that at the very least, Charanjit may gain a recommendation.
 
 
 The therapy practice is  
@@ -69,10 +74,7 @@ The therapy practice is
 
 Strategy
 Business Objectives
-- Promote Charanjit Dosanjh as a virtual psychotherapist 
-- Provide enough informtaion on the site to entice the typoes of people she will be able to help best 
-- Clearly display Charanjit's credentials in a clear and concise format. We live in an age where many people are claiming to be therapists/ advisors, however few have the proffesional experience or indeed education to justify these claims. 
-- Assist people to improve their mental health, irrespecitve of where they live in the world. 
+- 
     
     Client Objectives
 - Looking for a genuine psychotherapist 
