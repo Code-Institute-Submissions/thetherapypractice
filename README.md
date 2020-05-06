@@ -186,7 +186,19 @@ View my wireframes <a href="https://github.com/mayasaffron/thetherapypractice/tr
 
 
 ## Deployment: 🚀
+The Therapy Practice was developed on GitPod, using git and GitHub to host the repository.
 
+When deploying The Therapy Practice using GitHub Pages the following steps were made:
+
+* Opened up <strong>GitHub</strong> in the browser.
+* Signed in using username and password.
+* Selected my <strong>repositories</strong>.
+* Navigated to <strong>'/mayasaffron/thetherapypractice'</strong>.
+* In the top navigation clicked <strong>'settings'</strong>.
+* Scrolled down to the <strong>GitHub Pages</strong> area. 
+* Selected <strong>'Master Branch'</strong> from the <strong>'Source'</strong> dropdown menu.
+* Clicked to confirm my selection.
+* The Therapy Practice is now live on GitHub Pages.
 
 
 #### Running Holiday Destinations Locally
