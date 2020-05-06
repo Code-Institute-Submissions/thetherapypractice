@@ -39,6 +39,15 @@ Happy Coding!
 ### Project Goals
 The goal of this project is to create an online extension of the work of Charanjit Dosanjh; Psychotherapist, Occupational Therapist, Hypnotherapist and inevitably result in an increase of clients for her to help. The website is aimed toward anyone seeking guidance with their emotional difficulties. The website will be promoting a very personal service (Psychotherapy)and aims to be inclusive to people of all ages backgrounds and genders. Due to the nature of the service, a whole range of people are likely to be interested and click on the site, therefore the website needs to be particulary accesible for people at all stages of technicalogical understanding. The website must be aesthetically pleasing, informative, sincere and easy to navigate. 
 
+#### User Stories:
+* As a user I expect to find information about a therapists credibility when I visit their site. 
+* As a user, if I am browsing potential therapists, I want to know their rates and locality to me.
+* As a user I would like to have minimal clicks, when trying to find the relevant information. 
+* As a user, I want to know what experience the Therapist has, I want to know I am in good hands.
+* As a user I want to be able to book a sessions quickly and easily. 
+
+
+
 The therapy practice is  
  Charanjit Has been wanting to create a virtual presence for quite some time, however has never gone through with it becuase of fear of the unknown. She is in her fifties and still pretty afraid of technology. In addition to this, typically psychotherapist, especially in the uk, have been able to rely on word of mouth for their clients. However now that the world is so fast paced and technologly driven, people are a lot more sceptical if you dont even have a website!
 
