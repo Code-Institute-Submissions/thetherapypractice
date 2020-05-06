@@ -98,3 +98,11 @@ I did not want to go too overboard with the icons, whilst they are a fun way of 
 
 ##### Colours:
 Using learned knowledge from prior research, Orange is both bright and warm, bright colours increase memorabiltiy of a site and ultimately drives lead generation and for a site promoting such a personal service, warmth was a key factor Charanjit was keem to employ. I used the colour picker from Dev tools to help me get as close as i good to the deep orange colour within the logo. 
+
+* Primary: # <strong> </strong> 
+
+* Secondary: # <strong> </strong> 
+* Tertiary: # <strong>“”</strong> 
+* Navigation Colour: # <strong>“”</strong> 
+* Default Body Colour: I used a linear gradient of  ##e66114cc #d33428cb <strong>""</strong> These two colours create a warm mixture that is both visually appealing and emotionally comforting to the user. 
+* Default Body Panel Colour: #2a3439 <strong>"Darkest Blue"</strong> This dark shade of blue will be used to provide backgrounds to specific panels of interest especially on the hero section of the website.
