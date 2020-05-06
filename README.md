@@ -54,7 +54,10 @@ The goal of this project is to create an online extension of the work of Charanj
 
 #### Mabel Stone (20/ female):
 
+> I started really suffering with my mental health whilst at uni and my guidance counsellor suggested I find an experienced Psychotherapist. After having a look, there were nearly none! All the therapists I came across were on other webistes and they merely had a breif listing up. I would be grateful to find a working website for a freelance psychotherapist, who goes into detail about what she knows and how she knows it!! Also I access most website on my phone, so I would appreciate it if it was a website that was easy to browse on my phone, maybe more scrolling then clicking? 
 
+#### Saroop Singh (36/ female):
+> When it comes to therapy I am sceptical. Speaking to a stranger about my problems will not be easy for me, I would need to be reassured with information. I don't want to tbe overwhelmed by words, but I expect to see clear and concise evidence of the therapist academic and proffesional history. 
 
 The therapy practice is  
  Charanjit Has been wanting to create a virtual presence for quite some time, however has never gone through with it becuase of fear of the unknown. She is in her fifties and still pretty afraid of technology. In addition to this, typically psychotherapist, especially in the uk, have been able to rely on word of mouth for their clients. However now that the world is so fast paced and technologly driven, people are a lot more sceptical if you dont even have a website!
