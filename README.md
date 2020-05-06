@@ -136,5 +136,6 @@ The images used as the background images for the issues on the issues pages are 
 
 
 ## Wireframes: 🔧
-I built the wireframes for this project using <a href="https://balsamiq.com/">Balsamiq mockups</a>
+I built the wireframes for this project using <a href="https://balsamiq.com/">Balsamiq mockups</a>. Initially i wrote out, each section of the project/ website and what would be on the page. However, it was tough for me to visualise the slighlty different sizing of everything as it moved from desktop through to mobile and thats where Balsamiq wireframes, became very useful.
+View my wireframes <a href="https://github.com/mayasaffron/thetherapypractice/tree/master/assets/wireframes">here.</a>
 
