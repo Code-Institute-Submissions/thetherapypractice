@@ -158,5 +158,8 @@ View my wireframes <a href="https://github.com/mayasaffron/thetherapypractice/tr
 * <a href="https://git-scm.com/">Git</a>
 * <a href="https://getbootstrap.com/">Bootstrap</a>
 * <a href="https://fontawesome.com/icons?d=gallery">Font-Awesome</a>
+* <a href="https://validator.w3.org/">W3C Validation service was used to check HTML. </a>
+*<a href="https://jigsaw.w3.org/css-validator/">W3C Markup validation services used to check CSS.</a>
+* 
 
 
