@@ -144,3 +144,5 @@ View my wireframes <a href="https://github.com/mayasaffron/thetherapypractice/tr
 * youtube video explaining what psychotherapy is
 * dropdown navigation tab on 'issues i deal with' directing you to the correct area of the page
 
+## Technologies Used: 👨‍💻
+
