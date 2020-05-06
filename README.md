@@ -50,7 +50,10 @@ The goal of this project is to create an online extension of the work of Charanj
 
 ####Annie Lovett (43/ female):
 
-> I am not the best at technology at all!
+> I am not the best at technology at all! I do like it when the services I am interested in has a website because then I can find the contact details and email straight away, whilst I'm on the go! When looking for a Therapist the most important thing to me is, that the rates are listed clearly and the contact information, alike. I already know that I want a therapist, it comes down to the person, the money and how to get in contact for me!
+
+
+
 The therapy practice is  
  Charanjit Has been wanting to create a virtual presence for quite some time, however has never gone through with it becuase of fear of the unknown. She is in her fifties and still pretty afraid of technology. In addition to this, typically psychotherapist, especially in the uk, have been able to rely on word of mouth for their clients. However now that the world is so fast paced and technologly driven, people are a lot more sceptical if you dont even have a website!
 
