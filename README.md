@@ -93,3 +93,11 @@ She wanted to have a 'warming' colour theme and suggested the colour orange. Aft
 ##### Fonts: 
 I chose to use the font <a href="https://fonts.googleapis.com/css?family=Roboto&display=swap">ROBERTO</a> as it is very easy to read. Due to the nature of this website, it would have a lot of text and I was eager to insure it was as palatable as possible. As aforementioned, the focus of the content is to provide an informative yet not overwhelming experience for the potential client, which heavily influenced my decision to choose a font that isn't too ambiguous.
 
+##### Icons: 
+
+
+graduation-cap
+fa-briefcase
+file-signature
+paper-plane
+fa-download
