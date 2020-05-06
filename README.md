@@ -108,3 +108,28 @@ Using learned knowledge from prior research, Orange is both bright and warm, bri
 * Default Body Panel Colour: #2a3439 <strong>"Darkest Blue"</strong> This dark shade of blue will be used to provide backgrounds to specific panels of interest especially on the hero section of the website.
 * Default text colour : #fafafa <strong> </strong> I felt this colour sat beautifully on the default background coloir, making everything very visible and easy to read. 
 * Default hover colour: #d33428cb I used this as the hover colour, for subtl continuity and depth. 
+
+
+##### Styling: 
+
+
+
+##### Example Variables:
+
+Colours: 
+
+
+
+Default Styling:
+
+
+
+
+##### BEM:
+
+
+
+##### Background:
+The background images I chose to use on the about me page are photographs i took of Charanji Dosanjh. we wanted to capture her in a natural yet stylistic way. 
+
+The images used as the background images for the issues on the issues pages are sourced from royalty free websites, each image visually represents the corresponding issue title.  
