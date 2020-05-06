@@ -71,7 +71,20 @@ The goal of this project is to create an online extension of the work of Charanj
 
 ## User Requirements and Expectations:
 ##### Requirements:
+* Use the nav bar to find the relevant information. 
+* Be provided with information on mental health. 
+* If user decides to proceed to book a conulation, they must agree to terms and conditions first. 
+* Interact with consulation booking form. 
 
+
+##### Expectations:
+* Map to display points of interest (best selling locations).
+* Can click markers which then display more information and a link to a package website.
+* Interact with sliding elements to select packages.
+* Content is visually satisfying and informative.
+* Navigation takes user to specific parts of the website.
+* Pop out nav appears in place of navbar on Tablet + Mobile Devices.
+* Form Validation works correctly.
 
 The therapy practice is  
  Charanjit Has been wanting to create a virtual presence for quite some time, however has never gone through with it becuase of fear of the unknown. She is in her fifties and still pretty afraid of technology. In addition to this, typically psychotherapist, especially in the uk, have been able to rely on word of mouth for their clients. However now that the world is so fast paced and technologly driven, people are a lot more sceptical if you dont even have a website!
