@@ -94,10 +94,4 @@ She wanted to have a 'warming' colour theme and suggested the colour orange. Aft
 I chose to use the font <a href="https://fonts.googleapis.com/css?family=Roboto&display=swap">ROBERTO</a> as it is very easy to read. Due to the nature of this website, it would have a lot of text and I was eager to insure it was as palatable as possible. As aforementioned, the focus of the content is to provide an informative yet not overwhelming experience for the potential client, which heavily influenced my decision to choose a font that isn't too ambiguous.
 
 ##### Icons: 
-
-
-graduation-cap
-fa-briefcase
-file-signature
-paper-plane
-fa-download
+I did not want to go too overboard with the icons, whilst they are a fun way of visually summarising a title, I feared that it may dampen the proffesionalism of the site if i used too many. I provided icons only when i felt they were necessary. All of my icons were from from font-awesome icons. I use the icon ‘graduation-cap’ next to the list of training Charanjit has done, and the 'briefcase' icon to display her work history. In the footer I used a 'file-signature' accompanying the terms and conditions and a 'download' icon to indicate the link. I also used the 'paper-plane' icon next to 'book a consultation' to signify the speed in which it would take to book a consultation, also to display the idea of beiong ready to take a 'leap of faith'. Finally, I re-used the icon ‘graduation-cap’ beside the 'accredited by' option in the footer. In keeping with the presumption of the graduation cap being associated with proffesionalism. 
