@@ -212,6 +212,14 @@ When deploying The Therapy Practice using GitHub Pages the following steps were 
 
 ####Images from Issues page 
 * Photo by Valentin Antonucci on Unsplash <a href="https://images.unsplash.com/photo-1535578195295-f2329b3cdb8d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80">Relationship Breakdown</a>
+* Photo by Ethan Kent on Unsplash https://images.unsplash.com/photo-1536611517872-e0d5493e2164?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80 greif and loss
+* Photo by Tobias Stonjeck on Unsplash depression https://images.unsplash.com/photo-1532178910-7815d6919875?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80
+* Photo by Zan on Unsplash child and parent https://images.unsplash.com/photo-1570710020202-37829801d105?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80
+* https://images.unsplash.com/photo-1519165678289-8dec49bc74f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60 anxiety Photo by Gabriele Diwald on Unsplash
+* Photo by Maria Hochgesang on Unsplash identity https://images.unsplash.com/photo-1558023131-908cab000962?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60
+* 
+*
+
 
 
 
