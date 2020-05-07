@@ -487,12 +487,12 @@ color: #fafafa;
 }
 
 .virtual p{
-padding-top: 50px;
+;
 }
 .giphy-embed{
     border: none;
     text-align: center;
-    padding-top: 15px;
+ ;
 }
 
 .book-consultation:hover{
