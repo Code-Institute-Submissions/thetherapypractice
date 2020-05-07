@@ -209,6 +209,10 @@ When deploying The Therapy Practice using GitHub Pages the following steps were 
 ## Closing Notes:
 
 ## Credits: 💳
+
+#### Project Structure
+Used George (https://github.com/Geomint/holiday-destinations)as a template for read me as it was excellent  
+
 #### Design 
 https://hatchful.shopify.com/your-logos
 https://coolors.co/78e8b2-ff8552-dbd56e-f7b32b-f67e7d
@@ -220,7 +224,7 @@ https://coolors.co/78e8b2-ff8552-dbd56e-f7b32b-f67e7d
 * Photo by Gabriele Diwald on Unsplash <a href="https://images.unsplash.com/photo-1519165678289-8dec49bc74f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60">Anxiety</a>
 * Photo by Maria Hochgesang on Unsplash <a href="https://images.unsplash.com/photo-1558023131-908cab000962?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60">Identity</a>
 
-####Videos used throughout the site
+#### Videos used throughout the site
 * __About me page__:<a href="https://www.psychotherapy.org.uk/what-is-psychotherapy/"> UKCP Website</a>
 
 
