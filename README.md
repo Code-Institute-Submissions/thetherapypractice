@@ -201,7 +201,7 @@ When deploying The Therapy Practice using GitHub Pages the following steps were 
 * The Therapy Practice is now live on GitHub Pages.
 
 
-#### Running Holiday Destinations Locally
+#### Running The Therapy Practice Locally
 
 
 
@@ -210,6 +210,8 @@ When deploying The Therapy Practice using GitHub Pages the following steps were 
 
 ## Credits: 💳
 
+####Images from Issues page 
+* Photo by Valentin Antonucci on Unsplash <a href="https://images.unsplash.com/photo-1535578195295-f2329b3cdb8d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80">Relationship Breakdown</a>
 
 
 
