@@ -10,12 +10,28 @@ body{
 
 /* ---------------------nav bar & logo-------------------------------------- */
 
-#logo{
-    background: url(..assets/img/logo.png);
-}
+#logo{}
+
 #Navbar{
     background-color: #F7B32B;
     color: #F67E7D;
+}
+
+#navbarNavDropdown a{
+    color: #BD6D00;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a{
+    color: #BD6D00;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover{
+    background-color: #F7B32B;
+
 }
 /* ---------------------home page -------------------------------------- */
 
@@ -45,7 +61,7 @@ background-color:#E66114;
 
 /* ---------------------issues scroll-------------------------------------- */
 #Issues-I-deal-with{
-background-color:#61D568;
+background-color:#906787;
 }
 
 .card{
