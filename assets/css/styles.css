@@ -24,18 +24,31 @@ body{
 background-color: #78E8B2;
 
 }
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
-
+/* ---------------------about me scroll-------------------------------------- */
 #About-me{
 background-color:#E66114;
 }
 
-
+/* ---------------------issues scroll-------------------------------------- */
 #Issues-I-deal-with{
 background-color:#61D568;
 }
 
-
+/* ---------------------my style scroll-------------------------------------- */
 #My-style{
 background-color:#BDB04B;
 }
