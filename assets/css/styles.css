@@ -48,6 +48,9 @@ background-color:#E66114;
 background-color:#61D568;
 }
 
+.card{
+    background-color: transparent;
+}
 /* ---------------------my style scroll-------------------------------------- */
 #My-style{
 background-color:#BDB04B;
