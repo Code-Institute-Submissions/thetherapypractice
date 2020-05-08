@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700 &display=swap');
  
 body{
-background-image:linear-gradient(-90deg,#e66114cc,#d33428cb);
-    color: #fafafa;
+
 }
 
 /* ---------------------header-------------------------------------- */
@@ -28,17 +27,17 @@ background-color: #78E8B2;
 
 
 #About-me{
-background-color:#FF8552;
+background-color:#E66114;
 }
 
 
 #Issues-I-deal-with{
-background-color:#DBD56E;
+background-color:#61D568;
 }
 
 
 #My-style{
-background-color:#F7B32B;
+background-color:#BDB04B;
 }
 
 
@@ -525,6 +524,7 @@ font-size: 12px;
 }
 .uppercase{
     text-transform: uppercase;
+    text-align: center;
     
 }
 /* Small devices (landscape phones, 576px and up) */
