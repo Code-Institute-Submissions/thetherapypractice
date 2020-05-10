@@ -22,6 +22,8 @@ width: 170px;
 #Navbar{
     background-color: #F7B32B;
     color: #F67E7D;
+    text-align: center;
+    text-decoration-color: transparent;
 }
 
 #navbarNavDropdown a{
@@ -29,7 +31,9 @@ width: 170px;
     text-decoration: none;
     background-color: #F7B32B;
 }
-
+.nav-link:hover{
+    background-color: #BD6D00;
+}
 a{
     color: #BD6D00;
     text-decoration: none;
@@ -45,7 +49,7 @@ a:hover{
 
 #Home{
 background-color: #78E8B2;
-
+color: #BD6D00;
 }
 .iframe-container{
   position: relative;
@@ -77,6 +81,7 @@ background-color:#906787;
 /* ---------------------my style scroll-------------------------------------- */
 #My-style{
 background-color:#78E8B2;
+color: #BD6D00;
 }
 
 
