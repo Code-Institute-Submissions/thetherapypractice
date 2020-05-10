@@ -10,8 +10,15 @@ body{
 
 /* ---------------------nav bar & logo-------------------------------------- */
 
-#logo{}
+.logo{
+    position: relative;
+    background-color:#F7B32B;
+}
 
+.logo img{
+width: 170px;
+    height: 100px;
+}
 #Navbar{
     background-color: #F7B32B;
     color: #F67E7D;
@@ -20,13 +27,13 @@ body{
 #navbarNavDropdown a{
     color: #BD6D00;
     text-decoration: none;
-    background-color: transparent;
+    background-color: #F7B32B;
 }
 
 a{
     color: #BD6D00;
     text-decoration: none;
-    background-color: transparent;
+    background-color:transparent;
 }
 
 a:hover{
@@ -69,7 +76,7 @@ background-color:#906787;
 }
 /* ---------------------my style scroll-------------------------------------- */
 #My-style{
-background-color:#F7B32B;
+background-color:#78E8B2;
 }
 
 
@@ -611,12 +618,13 @@ display: inline-block;
 
 footer{
 
-    color:#fafafa;
+    color:#BD6D00;
     min-height: 150px;
      border-bottom-color: #fafafa;
     border-bottom: solid 1px;
     border-top: #fafafa;
     border-top: solid 1px;
+    background-color: #F7B32B;
 
 }
 
