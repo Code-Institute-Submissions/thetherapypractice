@@ -53,7 +53,7 @@ a:hover{
 /* ---------------------home page -------------------------------------- */
 
 
-#Home{
+#home{
 background-color: #78E8B2;
 color: #BD6D00;
 }
@@ -103,13 +103,13 @@ body:-webkit-full-page-media {
 }
 
 /* ---------------------about me scroll-------------------------------------- */
-#About-me{
+#about{
 background-color:#E66114;
 color:#fafafa;
 }
 
 /* ---------------------issues scroll-------------------------------------- */
-#Issues-I-deal-with{
+#issues{
 background-color:#906787;
 }
 
@@ -117,7 +117,7 @@ background-color:#906787;
     background-color: transparent;
 }
 /* ---------------------my style scroll-------------------------------------- */
-#My-style{
+#mystyle{
 background-color:#78E8B2;
 color: #BD6D00;
 }
