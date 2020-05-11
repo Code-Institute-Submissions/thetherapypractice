@@ -111,10 +111,28 @@ color:#fafafa;
 /* ---------------------issues scroll-------------------------------------- */
 #issues{
 background-color:#906787;
+color: #fafafa;
+}
+
+#issues p{
+  background-color:#906787;
+color: #fafafa;  
 }
 
 .card{
     background-color: transparent;
+    border: none;
+}
+
+.card-title {
+    margin-bottom: .75rem;
+    text-align: center;
+}
+.card-img-top {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: 100%;
+    height: 250px;
 }
 /* ---------------------my style scroll-------------------------------------- */
 #mystyle{
