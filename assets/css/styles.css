@@ -54,7 +54,7 @@ a:hover{
 
 
 #home{
-background-color: #F7B32B;
+background-color: #F89833;
 color: #612100;
 }
 
@@ -104,7 +104,7 @@ body:-webkit-full-page-media {
 
 /* ---------------------about me scroll-------------------------------------- */
 #about{
-background-color:#A3B5C6;
+background-color:#CDBB49;
 color:#fafafa;
 }
 .me-img{
@@ -113,12 +113,13 @@ color:#fafafa;
 }
 /* ---------------------issues scroll-------------------------------------- */
 #issues{
-background-color:#906787;
+background-color:#A3B5C6;
 color: #fafafa;
 }
 
+
 #issues p{
-  background-color:#906787;
+  background-color:#A3B5C6;
 color: #fafafa;  
 }
 
@@ -139,7 +140,7 @@ color: #fafafa;
 }
 /* ---------------------my style scroll-------------------------------------- */
 #mystyle{
-background-color:#F7B32B;
+background-color:#F89833;
 color: #612100;
 }
 
@@ -378,13 +379,13 @@ display: inline-block;
 
 footer{
 
-    color:#BD6D00;
+    color:#fafafa;
     min-height: 150px;
      border-bottom-color: #fafafa;
     border-bottom: solid 1px;
     border-top: #fafafa;
     border-top: solid 1px;
-    background-color: #F7B32B;
+    background-color: #612100;
 
 }
 

@@ -1,4 +1,4 @@
-#The Therapy Practice
+# The Therapy Practice
 
 <img src="assets/img/flower.png" style="margin: 0;">
 
@@ -6,7 +6,7 @@ Thankyou for visiting my project, please feel free to read through the Read-me a
 
 Happy Coding!
 
-##Contents
+## Contents
 
 * UX :computer:
 
@@ -99,14 +99,18 @@ I did not want to go too overboard with the icons, whilst they are a fun way of 
 ##### Colours:
 Using learned knowledge from prior research, Orange is both bright and warm, bright colours increase memorabiltiy of a site and ultimately drives lead generation and for a site promoting such a personal service, warmth was a key factor Charanjit was keem to employ. I used the colour picker from Dev tools to help me get as close as i good to the deep orange colour within the logo. 
 
-* Primary: # <strong> </strong> 
+* Navbar and Footer Colour: #F7B32B <strong>Chinese Yellow</strong> It was a bold move to go with a yellow for the nav bar and footer, however, i think it works very well and provides the warmth and emotive expression a site like this intends to draw out from the viewer. 
 
-* Secondary: # <strong> </strong> 
-* Tertiary: # <strong>“”</strong> 
-* Navigation Colour: # <strong>“”</strong> 
-* Default Body Colour: I used a linear gradient of  ##e66114cc #d33428cb <strong>""</strong> These two colours create a warm mixture that is both visually appealing and emotionally comforting to the user. 
-* Default Body Panel Colour: #2a3439 <strong>"Darkest Blue"</strong> This dark shade of blue will be used to provide backgrounds to specific panels of interest especially on the hero section of the website.
-* Default text colour : #fafafa <strong> </strong> I felt this colour sat beautifully on the default background coloir, making everything very visible and easy to read. 
+* Primary: #F89833 <strong> Deep Saffron </strong> This is the colour of the home and final (my style) page. I wanted this to be the primary colour because it is bright, warm and soothing. It provides a beautiful gradient from the slightly lighter, chinese yellow which is the colour of the nav bar and footer. Instantly the prospective clientis feeling, intrigued, excited and happy. 
+ - nav bar 
+#612100 - nav bar text, other text too?
+* Secondary: #CDBB49 <strong>Old Gold</strong> This is the colour of the about page. The about page is pretty important as its the __introduction to Charanjit__ . Therefore, I wanted a slightly more serious and focused colour to make it easier for the prospective client to absorb the information. In addition to this, the greenish tint blends well with the previous colour and is inline with the nature theme. 
+* Tertiary: #A3B5C6 <strong>Cadet Blue (Crayola) </strong> This is the colour for the Issues page. Similarly to the about page, this is a serious page, the colour provides calmness and focus. 
+
+
+
+* Default text colour : #fafafa <strong>Off-white</strong> I felt this colour sat beautifully on the default background colour, making everything very visible and easy to read. 
+
 * Default hover colour: #d33428cb I used this as the hover colour, for subtl continuity and depth. 
 
 
