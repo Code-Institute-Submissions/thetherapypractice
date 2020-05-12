@@ -14,13 +14,13 @@
 	<header class="container-fluid">
     <div class="row">
     <div class="col-sm-2 col-md-2 logo">
-    <img src="assets/img/logo.png" alt="logo">
+    <a href="#home">
+    <img src="assets/img/logo-.png" alt="logo"></a>
     </div>
     
 		<nav class="navbar navbar-expand-lg col-sm-10 col-md-10" id="Navbar">
-  <a class="navbar-brand" href="#">The Therapy Practice</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+    <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
@@ -34,7 +34,7 @@
         <a class="nav-link" href="#issues">Issues I deal with</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#mystyle">My-style</a>
+        <a class="nav-link" href="#mystyle">My Style</a>
       </li>
     </ul>
   </div>
@@ -44,7 +44,8 @@
 
 <section class="container-fluid" id="home">
 <div class="embed-responsive embed-responsive-16by9 video-wrap">
-  <iframe class="embed-responsive-item" src="assets/img/about-me.mp4" allowfullscreen></iframe></div>
+  <video controls muted>
+  <source src="assets/img/about-me.mp4" allowfullscreen></video></div>
 <div class="video-content">
 <h1 class="uppercase"> Welcome</h1>
 
@@ -65,8 +66,7 @@
 		<p class="general-sub"> People often confuse Psychotherapy with Counselling or Psychiatry.</p>
 	</div>
 	<div class="iframe-container">
-		<iframe src="https://www.youtube.com/embed/Zd5IubeNkhA" 
-			allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<iframe src="https://www.youtube.com/embed/Zd5IubeNkhA" type="video/mp4" allow="accelerometer; autoplay; encrypted-media; gyroscope;picture-in-picture" allowfullscreen> </iframe>
 	</div>
 
 	<div class="row">
@@ -120,13 +120,12 @@
 <section class="container-fluid" id="about">
 
 <div class="col-sm-12">
-<h1 class="uppercase"> About me</h1>
+<h1 class="uppercase">Charanjit Dosanjh</h1>
 </div>
 
 <div class="row">
 <div class="col-sm-4">
-	<p class="general-sub"> I am Charanjit Dosanjh</p>
-    <hr>
+
    <p class="general-sub"> I am a first generation, UK born, Punjabi woman.
 		I am fluent in Punjabi and able to communicate in Urdu and Hindi, with this comes an insight into cultural
 		dynamics operating within a variety of family settings.
@@ -139,12 +138,12 @@
 </div>
 
 <div class="col-sm-4">
-	<p class="general-sub"> I live in London and fully aware of the challenges that come with fast-paced living.
+	<p class="general-sub about"> I live in London and fully aware of the challenges that come with fast-paced living.
 		Self-development is a never-ending journey, every person's story is unique. We are forever evolving and each
 		experience provides us with the opportunity to grow.
 	</p>
 <hr>
-	<p class="general-sub">	I believe that everyone should have the opportunity to live free of constraints, self-imposed or otherwise. It
+	<p class="general-sub about">	I believe that everyone should have the opportunity to live free of constraints, self-imposed or otherwise. It
 		is through the relationship we build together that this will be possible. 
 		 </p>
 	
@@ -153,8 +152,8 @@
 </div>
 
  <div class="row">
-                <div class="col-sm-6 col-md-6">
-                    <h3 class="history-heading uppercase">
+                <div class="col-sm-6 col-md-6 history">
+                    <h3 class="history-heading">
                         Training <i class="fas fa-graduation-cap"></i>
                     </h3>
                      <div class="timeline-item" data-dates="1990 - 1992">
@@ -173,7 +172,7 @@
                 </div>
 
                 <div class="col-sm-6 col-md-6 history">
-                    <h3 class="history-heading uppercase">
+                    <h3 class="history-heading">
                         Work History <i class="fas fa-briefcase"></i>
                     </h3>
                 <div class="history-items">
@@ -189,7 +188,7 @@
                         <h4>Employee Assisted Programes</h4>
                         <p>Working with employers to improve the mental health of their workforce</p>
                     </div>
-                    <div class="timeline-item" data-dates="2017 - 2019">
+                    <div class="timeline-item 1" data-dates="2017 - 2019">
                         <h4>Private Eating Disorders Clinic</h4>
                         <p>Occupational Therapist</p>
                     </div>
@@ -511,7 +510,7 @@ I will carry out sessions virtually using platforms such as ;facetime; skype and
             <div class="col-sm-3">
 
                 <h5 class="uppercase general-sub"> Acredited by <i class="fas fa-graduation-cap"></i></h5>
-                <img src="https://www.psychotherapy.org.uk/wp-content/themes/ukcp/assets/images/logo.png"  alt="logo" class="ukcp-logo">
+                <img src="https://www.psychotherapy.org.uk/wp-content/themes/ukcp/assets/images/logo.png"  alt="logo" class="ukcp-logo img-fluid">
             </div>
         </div>
 

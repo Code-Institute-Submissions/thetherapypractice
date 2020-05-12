@@ -1,6 +1,6 @@
 # The Therapy Practice
 
-<img src="assets/img/logo.png">
+<img src="assets/img/logo-.png">
 
 Thankyou for visiting my project, please feel free to read through the Read-me and browse my project, *if you have any questions or suggestions head to my Github contact details.* 
 

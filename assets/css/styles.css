@@ -10,6 +10,11 @@ body{
 
 /* ---------------------nav bar & logo-------------------------------------- */
 
+.fa-bars{
+    color: #612100;
+}
+)
+
 .logo{
     position: relative;
     background-color:#F7B32B;
@@ -21,9 +26,8 @@ width: 170px;
 }
 #Navbar{
     background-color: #F7B32B;
-    color: #F67E7D;
     text-align: center;
-    text-decoration-color: transparent;
+    text-decoration-color: #612100;
     
 }
 #Navbar .sticky {
@@ -33,23 +37,15 @@ width: 170px;
 }
 
 #navbarNavDropdown a{
-    color: #BD6D00;
+    color: #612100;
     text-decoration: none;
     background-color: #F7B32B;
 }
 .nav-link:hover{
     background-color: #BD6D00;
-}
-a{
-    color: #BD6D00;
-    text-decoration: none;
-    background-color:transparent;
+     color: #F67E7D;
 }
 
-a:hover{
-    background-color: #F7B32B;
-
-}
 /* ---------------------home page -------------------------------------- */
 
 
@@ -102,75 +98,12 @@ body:-webkit-full-page-media {
   height: 100%;
 }
 
-/* ---------------------about me scroll-------------------------------------- */
-#about{
-background-color:#CDBB49;
-color:#fafafa;
-}
-.me-img{
-    box-shadow:10px 10px 10px grey;
-
-}
-/* ---------------------issues scroll-------------------------------------- */
-#issues{
-background-color:#A3B5C6;
-color: #fafafa;
+p{
+    color: #fafafa;
 }
 
 
-#issues p{
-  background-color:#A3B5C6;
-color: #fafafa;  
-}
-
-.card{
-    background-color: transparent;
-    border: none;
-}
-
-.card-title {
-    margin-bottom: .75rem;
-    text-align: center;
-}
-.card-img-top {
-    -ms-flex-negative: 0;
-    flex-shrink: 0;
-    width: 100%;
-    height: 250px;
-}
-/* ---------------------my style scroll-------------------------------------- */
-#mystyle{
-background-color:#F89833;
-color: #612100;
-}
-
-.tech-container{
-    height: 270px;
-    width: 300px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.first-experience{
-   text-align: center;
-   padding: 15px 15px;}
-
-
-   .approaches p{
+  .approaches p{
 margin: 15px 15px 15px 15px;
    }
 
@@ -184,34 +117,7 @@ margin: 15px 15px 15px 15px;
 .approach-link:hover{
     color: #912c36;
     padding-bottom: 100px;
-
-
 }
-
-
-#psycho-d:hover{
-    background: url("https://goguiltypleasures.files.wordpress.com/2012/06/therapy-graphic-humor-4163224-320-382.jpg")no-repeat;
-    background-size: 110%;
-    transition: 0.5s;
-    color: transparent;
-
-}
-
-#m-v:hover{
-     background: url("https://i.pinimg.com/originals/00/9c/8e/009c8e728e3972f561280aed4b0d9667.jpg")no-repeat;
-    background-size: 110%;
-    transition: 0.5s;
-    color: transparent;
-}
-
-#tna:hover{
-     background: url("https://i.pinimg.com/236x/49/73/54/4973546681c69d503ac09b1f6aa8e73a--learning-resources-transactional-analysis.jpg")no-repeat;
-    background-size: 110%;
-    transition: 0.5s;
-    color: transparent;
-}
-
-
 
 .welcome-speech p{
     padding: 20px 20px;
@@ -219,29 +125,48 @@ margin: 15px 15px 15px 15px;
     font-size: 20px;
     font-weight: 200;
 }
+/* ---------------------about me scroll-------------------------------------- */
+#about{
+background-color:#CDBB49;
+}
 
-/* ---------------------carousel-------------------------------------- */
+p .about{
+margin-top: 30px;
+color:#fafafa; 
+font-weight: 450;
+}
 
 
+h1{
+  color: #612100; 
+}
 
+.history-heading{
+   color: #612100;  
+  text-transform: uppercase;
+  margin-top: 30px;
 
+}
 
+.me-img{
+    box-shadow:10px 10px 10px grey;
 
-
-/* ---------------------about me -------------------------------------- */
-
+}
 
 .timeline-item{
-    padding: 4em 2em 0em 2em;
+    padding: 4em 2em 2em 2em;
     position: relative;
     color: #fafafa;
     border-left: solid 1px;
 
 }
-
+h4{
+   color: #612100;  
+}
 .timeline-item p{
     margin: 0;
     padding: 0;
+    color: #612100;
 }
 
 .timeline-item::before{
@@ -269,10 +194,17 @@ background: #fafafa;
 
 }
 
+/* ---------------------issues scroll-------------------------------------- */
+#issues{
+background-color:#A3B5C6;
+color: #fafafa;
+}
 
-/* ---------------------issues-------------------------------------- */
 
-
+#issues p{
+  background-color:#A3B5C6;
+color: #fafafa;  
+}
 
 .issues-opening{
     text-align: center;
@@ -280,8 +212,17 @@ background: #fafafa;
 
 }
 
+.card-title{
+    color: #612100;
+}
 
+.card-text::before{
+    font-weight: 350;
+}
 
+.card-text:hover{
+    color: #612100;
+}
 
 .relationship-type{
     color: #fafafa;
@@ -291,8 +232,32 @@ background: #fafafa;
 }
 
 
-/* ---------------------how i work-------------------------------------- */
 
+.card{
+    background-color: transparent;
+    border: none;
+}
+
+.card-title {
+    margin-bottom: .75rem;
+    text-align: center;
+}
+.card-img-top {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: 100%;
+    height: 250px;
+}
+/* ---------------------my style scroll-------------------------------------- */
+#mystyle{
+background-color:#F89833;
+color: #612100;
+}
+
+.tech-container{
+    height: 270px;
+    width: 300px;
+}
 
 .virtual h1{
     text-align: center;
@@ -303,6 +268,10 @@ background: #fafafa;
 background-color:#912c36;
 border: solid #912c36 1px;
 }
+ 
+
+
+
 
 /* ---------------------buttons-------------------------------------- */
 
@@ -350,11 +319,10 @@ font-size: 12px;
 .general-sub{
      font-family: "Exo",sans-serif;
      font-weight: 300;
-     color: #BD6D00;
+    
      
 
 }
-
 
 
 .inline-block{
@@ -372,20 +340,18 @@ display: inline-block;
 
 }
 
-}
-
 
 /* ---------------------footer-------------------------------------- */
 
 footer{
 
-    color:#fafafa;
+    color:#612100;
     min-height: 150px;
-     border-bottom-color: #fafafa;
+     border-bottom-color:#612100;
     border-bottom: solid 1px;
-    border-top: #fafafa;
+    border-top: #612100;
     border-top: solid 1px;
-    background-color: #612100;
+    background-color: #F7B32B;
 
 }
 
@@ -397,11 +363,12 @@ footer p{
     font-family: 'roboto',sans-serif;
     font-size: 15px;
     font-weight: 300;
+    color: #612100;
 }
 
 footer i{
  font-size: 18px;
-color: #fafafa;
+color: #612100;
 display: inline;
 text-align: center;
 padding-left: 5px;
@@ -417,7 +384,7 @@ transition: all 0.35s ease-in-out;
 
 .fa-download:hover{
     padding-top: 0;
-     color: #912c36;
+     color: #fafafa;
 }
 
 .ukcp-logo{
@@ -426,7 +393,7 @@ transition: all 0.35s ease-in-out;
 }
 
 .footer-contact{
-    color: #fafafa;
+    color: #612100;
     text-decoration: none;
     font-size: 15px;
     font-family: "Exo",sans-serif;
@@ -435,13 +402,13 @@ transition: all 0.35s ease-in-out;
 }
 
 .footer-contact:hover{
-    color: #912c36;
+    color: #fafafa;
 
 }
 
 .terms{
     padding-bottom: 20px;
-    color: #fafafa;
+    color: #612100;
     background-color: transparent;
 
 }
