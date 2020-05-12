@@ -11,7 +11,7 @@
 <title>The Therapy Practice</title>
 </head>
 <body>
-	<header class="container-fluid">
+	<header class="container-fluid sticky-top">
     <div class="row">
     <div class="col-sm-2 col-md-2 logo">
     <a href="#home">
@@ -24,7 +24,7 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
-      <li class="nav-item active">
+      <li class="nav-item">
         <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
@@ -43,18 +43,19 @@
 </header>
 
 <section class="container-fluid" id="home">
-<div class="embed-responsive embed-responsive-16by9 video-wrap">
-  <video controls muted>
-  <source src="assets/img/about-me.mp4" allowfullscreen></video></div>
-<div class="video-content">
-<h1 class="uppercase"> Welcome</h1>
+<div class="video-wrap">
 
-		<p class="general-sub">I offer an intuitive safe space in which you can explore your issues at your own
+<h1 class="uppercase vid"> Welcome</h1>
+
+		<p class="general-sub vid">I offer an intuitive safe space in which you can explore your issues at your own
 			pace.
 			There are no age barriers to embarking on your journey of Psychotherapy. Trauma can be generational
 			and the erness is on you, the individual, to break the cycle and do the self development, meaning
 			that your offspring and their offspring are not burdoned with your emotional difficulties. </p>
 
+    <div class="video-container">
+  <video controls muted autoplay loop muted>
+  <source src="assets/img/about-me.mp4" type="video/mp4" allowfullscreen></video></div>
 </div>
 
 	<div class="col-sm-12">
@@ -222,7 +223,7 @@ If your 'issue' does not appear below, please dont be disheartened, im pretty su
   <img src="https://images.unsplash.com/photo-1532178910-7815d6919875?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" class="card-img-top" alt="Depression">
   <div class="card-body">
     <h5 class="card-title">Depression</h5>
-    <p class="card-text general-sub">Living with depression can make it difficult to cope with, daily life, for example; finding work; sustaining relationships and general inclusion in society. There has been a massive shift, but there is still a MAJOR societal stigma surrounding depression. The facts speak for themselves <a href="https://www.london.gov.uk/sites/default/files/gla_migrate_files_destination/Mental%20health%20report.pdf" class="depression-stat"> '914,300 adults of working age' </a> suffer from depression in London,(in the UK) alone! Discrimination experienced by those living with depression can make recovery even harder.  It's nothing to be ashamed of and no one needs to suffer alone.</p>
+    <p class="card-text general-sub">Living with depression can make it difficult to cope with, daily life, for example; finding work; sustaining relationships and general inclusion in society. There has been a massive shift, but there is still a MAJOR societal stigma surrounding depression. The facts speak for themselves <a href="https://www.london.gov.uk/sites/default/files/gla_migrate_files_destination/Mental%20health%20report.pdf" class="depression-stat" target="_blank"> '914,300 adults of working age'  </a> suffer from depression in London,(in the UK) alone! Discrimination experienced by those living with depression can make recovery even harder.  It's nothing to be ashamed of and no one needs to suffer alone.</p>
     
   </div>
 </div>
@@ -231,7 +232,7 @@ If your 'issue' does not appear below, please dont be disheartened, im pretty su
   <img src="https://images.unsplash.com/photo-1570710020202-37829801d105?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80" class="card-img-top" alt="Child-Parent Relationships">
   <div class="card-body">
     <h5 class="card-title">Child-Parent Relationships</h5>
-    <p class="card-text general-sub">Living with depression can make it difficult to cope with, daily life, for example; finding work; sustaining relationships and general inclusion in society. There has been a massive shift, but there is still a MAJOR societal stigma surrounding depression. The facts speak for themselves <a href="https://www.london.gov.uk/sites/default/files/gla_migrate_files_destination/Mental%20health%20report.pdf" class="depression-stat"> '914,300 adults of working age' </a> suffer from depression in London,(in the UK) alone! Discrimination experienced by those living with depression can make recovery even harder.  It's nothing to be ashamed of and no one needs to suffer alone.</p>
+    <p class="card-text general-sub">My children are my biggest achievement and I feel so blessed to be a parent. Although I think we can all agree, parenting is no picnic! I work with families & assist in reconciling differences by offering a safe none judgemental space for each party to have a voice.Together we will work toward achieving and on maintaining open lines of communication; respecting boundaries with each other and deciding how best to handle all the other challenges we face.</p>
    
   </div>
 </div>
@@ -290,21 +291,18 @@ I can also assist you with looking at what a good relationship for YOU looks lik
 
 <div class="row">
 <div class="col-sm-12">
-<h1 class="uppercase"> My style</h1>
-</div>
-
-<div class="row">
-<div class="col-xs-12 col-sm-12 col-md-12">
 <h1 class="uppercase"> Virtual Psychotherapy</h1>
-</div>
 </div>
 
 <div class="container">
 <div class="row">
-<div class="col-xs-12 col-sm-6 col-md-6 tech-container">
-<iframe src="assets/img/tech.mp4"  class="tech-embed"  allowFullScreen></iframe></div>
+ 
+<div class="col-xs-12 col-sm-6 tech-container">
+ <video controls muted autoplay loop muted>
+  <source src="assets/img/tech.mp4" type="video/mp4"></video></div>
 
-<div class="col-xs-12 col-sm-6 col-md-6">
+
+<div class="col-xs-6 col-sm-6">
 <p class="general-sub"> I embarked on my Psychotherapy career when the world was different, technology was nowhere near as developed as it is now! This of course has its many benefits, however in my opinion, contributes to our heightened levels of stress and anxiety and lowered level of deep human connections. 
 
 I am going to meet you in the middle, we will discuss everything in depth, however we will do this bia a virtual platform. 
@@ -486,28 +484,22 @@ I will carry out sessions virtually using platforms such as ;facetime; skype and
 
 <footer class="container-fluid">
 	<div class="row footer-deets">
-            <div class="col-sm-3">
-                <h5 class="uppercase general-sub"> About me </h5>
-                <p class="inline-block"> Self development is a never ending journey, life is constantly testing us and often we feel that we have
-                to wait for a crisis before repairing ourselves.</p>
-            </div>
 
-            <div class="col-sm-3">
-                <h5 class="uppercase general-sub"> Book a consultation <i class="fas fa-paper-plane" aria-hidden="true"></i></h5>
-                <p class="inline-block"> Ready to get started?</p>
-                <p><a href="how-i-work.html" class="footer-contact">Click here to book your first consultation!</a></p>
-            </div>
-
-
-            <div class="col-sm-3 T-C">
-                <h5 class="uppercase general-sub"> Terms and Conditions<i class="fas fa-file-signature"></i></h5>
-                <p class="inline-block">Heres a printable version for you to look at, so that we can fully respect eavh opthers boundaries.</p> 
+     <div class="col-sm-4">
+                <h5 class="uppercase general-sub"> Terms and Conditions</h5>
+                <p class="inline-block"> Before booking a consultation you are required to agree to the terms and conditions.</p> 
                  <a href="t-c.html" target="_blank" class="terms">
-                    <i class="fa fa-download hvr-back-pulse" aria-hidden="true"><span class="sr-only">Download link here</span></i> 
+                    <i class="fa fa-download hvr-back-pulse" aria-hidden="true"><span class="sr-only">Click here to have a read</span></i> 
                 </a>
             </div>
 
-            <div class="col-sm-3">
+            
+            <div class="col-sm-4">
+                <h5 class="uppercase general-sub"> Ready to get started?<i class="fas fa-paper-plane" aria-hidden="true"></i></h5>
+                <p class="inline-block"><a href="how-i-work.html" class="footer-contact">Click here to book your first consultation!</a></p>
+            </div>
+
+            <div class="col-sm-4">
 
                 <h5 class="uppercase general-sub"> Acredited by <i class="fas fa-graduation-cap"></i></h5>
                 <img src="https://www.psychotherapy.org.uk/wp-content/themes/ukcp/assets/images/logo.png"  alt="logo" class="ukcp-logo img-fluid">

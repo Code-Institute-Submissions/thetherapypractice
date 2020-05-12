@@ -129,10 +129,6 @@ Default Styling:
 
 
 
-##### BEM:
-
-
-
 ##### Background:
 The background images I chose to use on the about me page are photographs i took of Charanji Dosanjh. we wanted to capture her in a natural yet stylistic way. 
 
