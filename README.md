@@ -1,6 +1,6 @@
 # The Therapy Practice
 
-<img src="assets/img/flower.png" style="margin: 0;">
+<img src="assets/img/logo.png">
 
 Thankyou for visiting my project, please feel free to read through the Read-me and browse my project, *if you have any questions or suggestions head to my Github contact details.* 
 
@@ -37,7 +37,7 @@ Happy Coding!
 ## UX (User Experience) :control_knobs:
 
 ### Project Goals
-The goal of this project is to create an online extension of the work of Charanjit Dosanjh; Psychotherapist, Occupational Therapist, Hypnotherapist and inevitably result in an increase of clients for her to help. The website is aimed toward anyone seeking guidance with their emotional difficulties. The website will be promoting a very personal service (Psychotherapy)and aims to be inclusive to people of all ages backgrounds and genders. Due to the nature of the service, a whole range of people are likely to be interested and click on the site, therefore the website needs to be particulary accesible for people at all stages of technicalogical understanding. The website must be aesthetically pleasing, informative, sincere and easy to navigate. 
+The goal of this project is to create an __online extension of the work of Charanjit Dosanjh__; _Psychotherapist_, _Occupational Therapist_, _Hypnotherapist_ and inevitably result in an increase of clients for her to help. The website is aimed toward anyone seeking guidance with their emotional difficulties. The website will be __promoting a very personal service (Psychotherapy)__ and aims to be inclusive to people of all ages backgrounds and genders. Due to the nature of the service, a whole range of people are likely to be interested and click on the site, therefore the website needs to be __particulary accesible for people at all stages of technicalogical understanding.__ The website must be aesthetically pleasing, informative, sincere and easy to navigate. 
 
 #### User Stories:
 * As a user I expect to find information about a therapists credibility when I visit their site. 
