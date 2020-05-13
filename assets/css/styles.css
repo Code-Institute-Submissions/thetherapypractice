@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700 &display=swap');
  
-body{
-
-}
 
 /* ---------------------header-------------------------------------- */
 
@@ -29,6 +26,7 @@ body{
     text-align: center;
     text-decoration-color: #612100;
     width: 100%;
+
 
 }
 
@@ -203,18 +201,18 @@ background: #fafafa;
 }
 
 /* ---------------------issues scroll-------------------------------------- */
-#issues{
+#help{
 background-color:#A3B5C6;
 color: #fafafa;
 }
 
 
-#issues p{
+#help p{
   background-color:#A3B5C6;
 color: #fafafa;  
 }
 
-.issues-opening{
+.help-opening{
     text-align: center;
     padding: 10px 60px 10px 60px;
 
@@ -258,7 +256,7 @@ color: #fafafa;
 }
 
 /* ---------------------my style scroll-------------------------------------- */
-#mystyle{
+#approach{
 background-color:#F89833;
 color: #612100;
 }
