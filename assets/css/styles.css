@@ -67,7 +67,7 @@ body:-webkit-full-page-media {
 .video-wrap{
     display: flex;
     width: 100%;
-    height: 50vh;
+    height: 100vh;
     overflow: hidden;
     position: relative;
     align-items: center;
