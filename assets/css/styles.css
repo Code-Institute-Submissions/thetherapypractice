@@ -279,7 +279,20 @@ background-color:#912c36;
 border: solid #912c36 1px;
 }
  
+ #inlineFormCustomSelect1{
+     margin: 15px;
+     width: 100%;
+ }
 
+#inlineFormCustomSelect2{
+     margin: 15px;
+     width: 100%;
+ }
+
+ #inlineFormCustomSelect3{
+     margin: 15px;
+     width: 100%;
+ }
 
 
 
@@ -299,7 +312,10 @@ border: solid #912c36 1px;
 hr{
     border: none;
 }
-
+.in-touch{
+    margin: 0 auto;
+  
+}
 /* ---------------------hover.css-------------------------------------- */
 
 
