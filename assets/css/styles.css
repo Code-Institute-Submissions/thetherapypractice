@@ -64,7 +64,7 @@
 
 
 #home{
-background-color: #F89833;
+background-color: transparent;
 color: #612100;
 }
 
@@ -127,7 +127,7 @@ margin: 15px 15px 15px 15px;
 }
 /* ---------------------about me scroll-------------------------------------- */
 #about{
-background-color:#CDBB49;
+background-color:#F89833;
 }
 
 p .about{
@@ -253,7 +253,7 @@ padding:2px 4px 2px 4px;
     font-family: "Exo",sans-serif;
 }
 /* ---------------------approach -------------------------------------- */
-/* ---------------------working together-------------------------------------- */
+
 #approach{
 background-color:#F89833;
 color: #612100;
@@ -292,9 +292,22 @@ border: solid #912c36 1px;
      width: 100%;
  }
 
-/* ---------------------rates-------------------------------------- */
 
+/* ---------------------working together-------------------------------------- */
+#working{
+    background-color: #A3B5C6;
+}
+/* ---------------------rates-------------------------------------- */
+#rates{
+background-color:#F89833;
+color: #612100;
+}
 /* ---------------------contact -------------------------------------- */
+#contact{
+    background-color: #A3B5C6;
+}
+
+
 /* ---------------------buttons-------------------------------------- */
 
 
