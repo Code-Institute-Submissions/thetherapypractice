@@ -402,7 +402,8 @@ transition: all 0.35s ease-in-out;
 .ukcp-logo{
   height: 85px;
     width:155px ;
-    align-self: center;
+    display: block;
+    margin: 0 auto;
 }
 
 .footer-contact{
