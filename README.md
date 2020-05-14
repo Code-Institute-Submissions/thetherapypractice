@@ -101,33 +101,13 @@ Using learned knowledge from prior research, Orange is both bright and warm, bri
 
 * Navbar and Footer Colour: #F7B32B <strong>Chinese Yellow</strong> It was a bold move to go with a yellow for the nav bar and footer, however, i think it works very well and provides the warmth and emotive expression a site like this intends to draw out from the viewer. 
 
-* Primary: #F89833 <strong> Deep Saffron </strong> This is the colour of the home and final (my style) page. I wanted this to be the primary colour because it is bright, warm and soothing. It provides a beautiful gradient from the slightly lighter, chinese yellow which is the colour of the nav bar and footer. Instantly the prospective clientis feeling, intrigued, excited and happy. 
- - nav bar 
-#612100 - nav bar text, other text too?
-* Secondary: #CDBB49 <strong>Old Gold</strong> This is the colour of the about page. The about page is pretty important as its the __introduction to Charanjit__ . Therefore, I wanted a slightly more serious and focused colour to make it easier for the prospective client to absorb the information. In addition to this, the greenish tint blends well with the previous colour and is inline with the nature theme. 
-* Tertiary: #A3B5C6 <strong>Cadet Blue (Crayola) </strong> This is the colour for the Issues page. Similarly to the about page, this is a serious page, the colour provides calmness and focus. 
+* Primary: #F89833 <strong> Deep Saffron </strong> This is the colour of the about, approach and rates page. I wanted this to be the primary colour because it is bright, warm and soothing. It is also the background colour for the __introduction to Charanjit__, I wanted the prospective client to associate all of the aformentioned colour attributes with __Chaaranjit__. Additionally, it provides a beautiful gradient from the slightly lighter, chinese yellow which is the colour of the nav bar and footer. Instantly the prospective clientis feeling, intrigued, excited and happy. 
 
+* Secondary: #A3B5C6 <strong>Cadet Blue (Crayola) </strong> This is the colour of the help, working together and contact page. I wanted a slightly more serious and focused colour to make it easier for the prospective client to absorb the information. 
 
+* Tertiary: #612100 <strong>Bakers Chocolate </strong> This is the colour for the headings and hovers throughout the page the colour provides calmness, depth and focus. 
 
 * Default text colour : #fafafa <strong>Off-white</strong> I felt this colour sat beautifully on the default background colour, making everything very visible and easy to read. 
-
-* Default hover colour: #d33428cb I used this as the hover colour, for subtl continuity and depth. 
-
-
-##### Styling: 
-
-
-
-##### Example Variables:
-
-Colours: 
-
-
-
-Default Styling:
-
-
-
 
 ##### Background:
 The background images I chose to use on the about me page are photographs i took of Charanji Dosanjh. we wanted to capture her in a natural yet stylistic way. 
@@ -141,8 +121,12 @@ View my wireframes <a href="https://github.com/mayasaffron/thetherapypractice/tr
 
 ## Features: 🎡
 
-* youtube video explaining what psychotherapy is
-* dropdown navigation tab on 'issues i deal with' directing you to the correct area of the page
+* Link to a youtube video explaining what psychotherapy is (#working-together)
+* Background video (#home)
+* Background video (#working-together)
+* Easy Navigation Colours 
+* Contact Form (#contact)
+* Cards (Bootstrap-#help)
 
 ## Technologies Used: 👨‍💻
 
@@ -211,11 +195,11 @@ When deploying The Therapy Practice using GitHub Pages the following steps were 
 ## Credits: 💳
 
 #### Project Structure
-Used George (https://github.com/Geomint/holiday-destinations)as a template for read me as it was excellent  
+Used<a href="https://github.com/Geomint/holiday-destinations"></a>as a template for read me as it was excellent.  
 
 #### Design 
-https://hatchful.shopify.com/your-logos
-https://coolors.co/78e8b2-ff8552-dbd56e-f7b32b-f67e7d
+Used <a href="https://hatchful.shopify.com/your-logos"></a> To design my logo.
+Used<a href="https://coolors.co/78e8b2-ff8552-dbd56e-f7b32b-f67e7d"></a> To source my colour scheme.
 #### Images from Issues page 
 * Photo by Valentin Antonucci on Unsplash <a href="https://images.unsplash.com/photo-1535578195295-f2329b3cdb8d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80">Relationship Breakdown</a>
 * Photo by Ethan Kent on Unsplash <a href="https://images.unsplash.com/photo-1536611517872-e0d5493e2164?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80">Greif and loss</a> 
@@ -225,8 +209,8 @@ https://coolors.co/78e8b2-ff8552-dbd56e-f7b32b-f67e7d
 * Photo by Maria Hochgesang on Unsplash <a href="https://images.unsplash.com/photo-1558023131-908cab000962?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60">Identity</a>
 
 #### Videos used throughout the site
-* __About me page__:<a href="https://www.psychotherapy.org.uk/what-is-psychotherapy/"> UKCP Website</a>
-
+* __#home__:<a href="https://www.pexels.com/video/beautiful-butterfly-on-a-flower-1433307/">Video by Rahul Sharma from Pexels
+* __#working-together__:<a href="https://www.pexels.com/video/digital-projection-of-the-earth-mass-in-blue-lights-3129957/">Video by Pressmaster from Pexels
 
 
 

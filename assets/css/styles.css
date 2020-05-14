@@ -36,6 +36,7 @@
     position: fixed;
 
 
+
 }
 
 
@@ -86,10 +87,19 @@ body:-webkit-full-page-media {
 .vid{
 z-index: 1;
 opacity: .8;
+}
+
+.vid h1{
+justify-content: center;
+
+}
+
+
+.vid p{
 
 
 }
-.video-container{
+.video-c{
 position:absolute;
 top: 0;
 left: 0;
@@ -160,7 +170,9 @@ h1{
 .bio{
     padding: 2px 4px 2px 4px;
 }
-
+.history{
+    padding-left: 2rem;
+}
 .timeline-item{
     padding: 4em 2em 2em 2em;
     position: relative;
@@ -211,7 +223,7 @@ padding-top: 4rem;
 
 
 #help p{
-  background-color:#A3B5C6;
+  background-color:hsl(209, 23%, 71%);
 color: #fafafa;  
 padding:2px 4px 2px 4px;
 }
@@ -243,6 +255,8 @@ padding:2px 4px 2px 4px;
     font-weight: 350;
         border: 1px solid;
     border-radius: 1rem;
+    color: #fafafa;
+    
 }
 
 .card-text:hover{
@@ -266,7 +280,7 @@ padding:2px 4px 2px 4px;
 #approach{
 background-color:#F89833;
 color: #612100;
-padding-top: 4rem;
+padding-top: 4 rem;
 }
 
 .tech-container{
@@ -312,12 +326,12 @@ border: solid #912c36 1px;
 #rates{
 background-color:#F89833;
 color: #612100;
-padding-top: 8rem;
+padding-top: 4 rem;
 }
 /* ---------------------contact -------------------------------------- */
 #contact{
     background-color: #A3B5C6;
-    padding-top: 8rem;
+    padding-top: 4 rem;
 }
 
 
