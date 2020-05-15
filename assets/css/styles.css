@@ -84,21 +84,13 @@ body:-webkit-full-page-media {
 
 }
 
-.vid{
-z-index: 1;
-opacity: .8;
-}
 
-.vid h1{
-justify-content: center;
+
+.video-content{
+  
 
 }
 
-
-.vid p{
-
-
-}
 .video-c{
 position:absolute;
 top: 0;
@@ -472,8 +464,9 @@ transition: all 0.35s ease-in-out;
 
 /* ---------------------t&c's-------------------------------------- */
 
-.t-c{
-text-align: center;
+#terms{
+    padding-top: 8rem;
+    text-align: center;
 background-color: #F89833
 }
 
