@@ -325,8 +325,14 @@ padding-top: 4 rem;
     background-color: #A3B5C6;
     padding-top: 4 rem;
 }
+.terms-link{
+    color: #fafafa;
+     text-decoration: none;
+}
 
-
+.terms-link:hover{
+    color: #612100;
+}
 /* ---------------------buttons-------------------------------------- */
 
 
@@ -335,9 +341,18 @@ hr{
 }
 .in-touch{
     margin: 0 auto;
-  
+      color:#A3B5C6 ;
+    background-color:#612100;
+    border-radius: 0.5rem;
+    border: 3px solid #612100
 }
 
+.in-touch:hover{
+    opacity: .8;
+    overflow: hidden;
+      background-color:#612100;
+        border: 3px solid #612100
+}
 /* ---------------------special margins, paddings-------------------------------------- */
 
  
