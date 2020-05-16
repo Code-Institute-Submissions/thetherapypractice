@@ -272,11 +272,23 @@ padding:2px 4px 2px 4px;
 #approach{
 background-color:#F89833;
 color: #612100;
-padding-top: 4 rem;
+padding-top: 4rem;
+}
+.approaches{
+  padding-top: 4rem;  
 }
 
-.tech-container{
+/* ---------------------working together-------------------------------------- */
+#working{
+    background-color: #A3B5C6;
+    padding-top: 4rem;
+}
 
+.explanation{
+ padding-top: 2rem;   
+}
+.tech-container{
+ padding-top: 4rem; 
   width: 100%;
 }
 .tech-container video{
@@ -308,22 +320,16 @@ border: solid #912c36 1px;
      width: 100%;
  }
 
-
-/* ---------------------working together-------------------------------------- */
-#working{
-    background-color: #A3B5C6;
-    padding-top: 4 rem;
-}
 /* ---------------------rates-------------------------------------- */
 #rates{
 background-color:#F89833;
 color: #612100;
-padding-top: 4 rem;
+padding-top: 4rem;
 }
 /* ---------------------contact -------------------------------------- */
 #contact{
     background-color: #A3B5C6;
-    padding-top: 4 rem;
+    padding-top: 4rem;
 }
 .terms-link{
     color: #fafafa;
