@@ -67,12 +67,14 @@
 #home{
 background-color: transparent;
 color: #612100;
+padding: 0px;
 }
 
 body:-webkit-full-page-media {
     background-color: transparent;
     margin: 0;
 }
+
 .video-wrap{
     display: flex;
     width: 100%;
@@ -84,14 +86,19 @@ body:-webkit-full-page-media {
 
 }
 
-
-
 .video-content{
-  
-
+    text-align: center;
+    background: #fafafa;
+    z-index: 1;
+   padding: 20px;
+   opacity: 0.8;
 }
 
-.video-c{
+.video-content p{ 
+    color: #612100;
+}
+
+.video-container{
 position:absolute;
 top: 0;
 left: 0;
@@ -108,7 +115,7 @@ p{
 
 .welcome-speech p{
     padding: 20px 20px;
-    font-family: 'roboto',sans-serif;
+    font-family: 'exo',sans-serif;
     font-size: 20px;
     font-weight: 200;
 }
@@ -116,12 +123,7 @@ p{
 #about{
 background-color:#F89833;
 padding-top: 4rem;
-}
-
-p .about{
-margin-top: 30px;
 color:#fafafa; 
-font-weight: 450;
 }
 
 
@@ -142,7 +144,38 @@ h1{
     width: 100%;
     border-radius: 1rem;
      height: 500px;
+     padding-bottom: 5px;
    
+}
+
+.card{
+    background-color: transparent;
+    border: none;
+}
+
+.card-title {
+    margin-bottom: .75rem;
+    text-align: center;
+    color: #612100;
+}
+.card-img-top {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: 100%;
+    height: 250px;
+    border-radius: 1rem;
+}
+
+.card-text{
+    font-weight: 350;
+        border: 1px solid;
+    border-radius: 1rem;
+    color: #fafafa;
+    padding-top: 4px;    
+}
+
+.card-text:hover{
+    color: #612100;
 }
 .bio{
     padding: 2px 4px 2px 4px;
@@ -191,18 +224,11 @@ background: #fafafa;
 
 }
 
-/* ---------------------issues scroll-------------------------------------- */
+/* ---------------------things i help with-------------------------------------- */
 #help{
 background-color:#A3B5C6;
 color: #fafafa;
 padding-top: 4rem;
-}
-
-
-#help p{
-  background-color:hsl(209, 23%, 71%);
-color: #fafafa;  
-padding:2px 4px 2px 4px;
 }
 
 .help-opening{
@@ -233,7 +259,7 @@ padding:2px 4px 2px 4px;
         border: 1px solid;
     border-radius: 1rem;
     color: #fafafa;
-    
+    padding-top: 4px;    
 }
 
 .card-text:hover{
@@ -345,7 +371,11 @@ padding-top: 4rem;
     vertical-align: top;
     color: #612100;
     font-family: 'exo',sans-serif;
-    font-weight: 600;}
+    font-weight: 600;
+    }
+
+
+   
 /* ---------------------contact -------------------------------------- */
 #contact{
     background-color: #A3B5C6;
