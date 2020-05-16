@@ -105,21 +105,6 @@ p{
 }
 
 
-  .approaches p{
-margin: 15px 15px 15px 15px;
-   }
-
-.approach-link{
-    color: #fafafa;
-    font-weight: 400;
-    text-decoration: none;
-    
-}
-
-.approach-link:hover{
-    color: #612100;
-    padding-bottom: 100px;
-}
 
 .welcome-speech p{
     padding: 20px 20px;
@@ -274,9 +259,26 @@ background-color:#F89833;
 color: #612100;
 padding-top: 4rem;
 }
+
 .approaches{
   padding-top: 4rem;  
 }
+  .approaches p{
+margin: 15px 15px 15px 15px;
+   }
+
+.approach-link{
+    color: #fafafa;
+    font-weight: 400;
+    text-decoration: none;
+    
+}
+
+.approach-link:hover{
+    color: #612100;
+    padding-bottom: 100px;
+}
+
 
 /* ---------------------working together-------------------------------------- */
 #working{
@@ -326,6 +328,24 @@ background-color:#F89833;
 color: #612100;
 padding-top: 4rem;
 }
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #fafafa;
+    color: #612100;
+}
+
+.table-bordered td, .table-bordered th {
+    border: 2px solid #fafafa;
+    border-radius: 1rem;
+}
+
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    color: #612100;
+    font-family: 'exo',sans-serif;
+    font-weight: 600;}
 /* ---------------------contact -------------------------------------- */
 #contact{
     background-color: #A3B5C6;
