@@ -15,12 +15,15 @@
 .logo{
     position: relative;
     background-color:transparent;
+    height: auto;
 
     
 }
 
 .logo img{
- background-color:#F7B32B
+background: #F7B32B;
+   opacity: 0.8;
+   border-radius: 1rem;
 }
 
 .sticky-top{
@@ -43,7 +46,9 @@
 #navbarNavDropdown a{
     color: #612100;
     text-decoration: none;
-    background-color: #F7B32B;
+    background: #F7B32B;
+   opacity: 0.8;
+   border-radius: 1rem;
 
 
 }
@@ -88,14 +93,17 @@ body:-webkit-full-page-media {
 
 .video-content{
     text-align: center;
-    background: #fafafa;
+    background: #9bb685;
     z-index: 1;
    padding: 20px;
    opacity: 0.8;
+   border-radius: 1rem;
+   
 }
 
 .video-content p{ 
     color: #612100;
+    font-weight: 500;
 }
 
 .video-container{
@@ -528,15 +536,15 @@ transition: all 0.35s ease-in-out;
 }
 
 
-#footer-deets{
+.footer-deets{
     padding: 20px;
-    padding-top: 40px;
 }
 
 /* ---------------------t&c's-------------------------------------- */
 
 #terms{
-    padding-top: 8rem;
+    padding-top: 10rem;
+    padding-bottom: 5rem;
     text-align: center;
 background-color: #F89833
 }
