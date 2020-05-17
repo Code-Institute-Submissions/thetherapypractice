@@ -362,6 +362,27 @@ background-color:#F89833;
 color: #612100;
 padding-top: 4rem;
 }
+.table-container{
+   border-radius: 1rem;
+    border: 2px solid #fafafa;
+    
+}
+.tables{
+    border-radius: 1rem;
+    border: 2px solid #fafafa;
+    display: table-cell;
+}
+
+.th{
+ border-radius: 0.5rem;
+    border: 2px solid #fafafa;
+}
+
+.cost{
+ border-radius: 0.5rem;
+    border: 2px solid #fafafa;
+
+}
 
 .table thead th {
     vertical-align: bottom;
