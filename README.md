@@ -1,6 +1,6 @@
 # The Therapy Practice
 
-<img src="assets/img/logo-.png">
+<img src="assets/img/new-logo.png">
 
 Thankyou for visiting my project, please feel free to read through the Read-me and browse my project, *if you have any questions or suggestions head to my Github contact details.* 
 
@@ -93,8 +93,6 @@ She wanted to have a 'warming' colour theme and suggested the colour orange. Aft
 ##### Fonts: 
 I chose to use the font <a href="https://fonts.googleapis.com/css?family=Roboto&display=swap">ROBERTO</a> as it is very easy to read. Due to the nature of this website, it would have a lot of text and I was eager to insure it was as palatable as possible. As aforementioned, the focus of the content is to provide an informative yet not overwhelming experience for the potential client, which heavily influenced my decision to choose a font that isn't too ambiguous.
 
-##### Icons: 
-I did not want to go too overboard with the icons, whilst they are a fun way of visually summarising a title, I feared that it may dampen the proffesionalism of the site if i used too many. I provided icons only when i felt they were necessary. All of my icons were from from font-awesome icons. I use the icon ‘graduation-cap’ next to the list of training Charanjit has done, and the 'briefcase' icon to display her work history. In the footer I used a 'file-signature' accompanying the terms and conditions and a 'download' icon to indicate the link. I also used the 'paper-plane' icon next to 'book a consultation' to signify the speed in which it would take to book a consultation, also to display the idea of beiong ready to take a 'leap of faith'. Finally, I re-used the icon ‘graduation-cap’ beside the 'accredited by' option in the footer. In keeping with the presumption of the graduation cap being associated with proffesionalism. 
 
 ##### Colours:
 Using learned knowledge from prior research, Orange is both bright and warm, bright colours increase memorabiltiy of a site and ultimately drives lead generation and for a site promoting such a personal service, warmth was a key factor Charanjit was keem to employ. I used the colour picker from Dev tools to help me get as close as i good to the deep orange colour within the logo. 
@@ -109,11 +107,7 @@ Using learned knowledge from prior research, Orange is both bright and warm, bri
 
 * Default text colour : #fafafa <strong>Off-white</strong> I felt this colour sat beautifully on the default background colour, making everything very visible and easy to read. 
 
-##### Background:
-The background images I chose to use on the about me page are photographs i took of Charanji Dosanjh. we wanted to capture her in a natural yet stylistic way. 
-
-The images used as the background images for the issues on the issues pages are sourced from royalty free websites, each image visually represents the corresponding issue title.
-
+<img src="wireframes/colour-scheme-creation.png">
 
 ## Wireframes: 🔧
 I built the wireframes for this project using <a href="https://balsamiq.com/">Balsamiq mockups</a>. Initially i wrote out, each section of the project/ website and what would be on the page. However, it was tough for me to visualise the slighlty different sizing of everything as it moved from desktop through to mobile and thats where Balsamiq wireframes, became very useful.
@@ -121,12 +115,11 @@ View my wireframes <a href="https://github.com/mayasaffron/thetherapypractice/tr
 
 ## Features: 🎡
 
-* Link to a youtube video explaining what psychotherapy is (#working-together)
 * Background video (#home)
 * Background video (#working-together)
 * Easy Navigation Colours 
 * Contact Form (#contact)
-* Cards (Bootstrap-#help)
+
 
 ## Technologies Used: 👨‍💻
 
@@ -139,33 +132,69 @@ View my wireframes <a href="https://github.com/mayasaffron/thetherapypractice/tr
 ### Tools & Libraries:
 
 * <a href="https://jquery.com/">jQuery</a>
+* <a href="https://popper.js.org/">Popper js</a>
 * <a href="https://git-scm.com/">Git</a>
 * <a href="https://getbootstrap.com/">Bootstrap</a>
 * <a href="https://fontawesome.com/icons?d=gallery">Font-Awesome</a>
 * <a href="https://validator.w3.org/">W3C Validation service was used to check HTML. </a>
 * <a href="https://jigsaw.w3.org/css-validator/">W3C Markup validation services used to check CSS.</a>
 
+
 ## Testing: 🔌
+The basis of Psychotherapy can be very daunting. Therefore, a website promoting the services of a Psychotherapist, can also be fairly intimidating to the prospective client, depending on where they are in their journey. It was very important to me that nothing on the site would distract a person, seeking help, from getting the help they desired. I tested the site every step of the way. 
+
+Test Planning:
+As I was so anxious to see how everything looked and worked as soon as I built it, I was very hasty with my tests and it became very time consuming. My plan was literally: Build something --> Test it. In future projects, I hope to have more of a concrete testing approach to my work, so that I save time. 
+
+Testing Stories:
+I was informed that the colours I had initially chose clashed too much in terms of contrast, i then used coolors.co to select a new color scheme and implemented the new colours.
+
+I struggled a lot with layout, with the nature of the site being very wordy, I was more concerned with putting out the most informed and accurate content and negelected the layout. Eventually I had to rethink my entire site layout and even changed from a multiple page site to a scroll site. I also started to use "Cards" From Bootstrap, whenever I was using text and an image on a page. 
+
+During a mentor session I was informed that the background video on the home page was causing the entire site to flicker when scrolling, I then placed a div, only visible on mobile around the homepage and placed a still image inside and this considerably helped. 
+
+Overall:
+Responsiveness -
+
+Plan 📝: I knew that this project needed to be FULLY responsive and mobile friendly therefore the obvious option to use Bootstrap as this HTML Framework I'm most comfortable using. To test, I used dev-tools throughout my project.  
+
+Implementation 🏭: Throughout writing my HTML code making sure to use appropriate bootstrap class modifiers to provide correct breakpoints for the content and the applying the advice from my mentor to "add in mobile visible specific divs where necessary". Testing breakpoints was relatively simple thanks to the easy to use Bootstrap.
+Result 🏆: The Responsiveness of the site works as expected, no elements or content escape their boundaries or are hard to see on any device.
+Verdict ✅: This test has passed and therefore the site is responsive.
+Design -
+
+Plan 📝:The overall design of the site had to reflect the service being offered, calmness and curiosity needed to be conveyed through the colours and imagery. Using the colour scheme I chose not only provides great contrast but worked well for provoking emotional responses. 
+Implementation 🏭: Adding these colours and varying their shades based on feedback, regarding the emotional response triggered, the readability and the visual satisfaction, gathered from a wide range of people, proved to be the most effective way to test this. 
+Result 🏆: The colours chosen in the end work well for the theme of the site. When readability was comprimised, sufficcient backgrounds were added, so that the text 'pops'. 
+Verdict ✅: This test has passed and the overall colour scheme fits well for the purpose of the site.
+
+Features:
+Background video (#home) -
+
+Plan 📝: I was over half way through my project when I decided to add a background video to my landing page. I could not find another alternative, which would emotionally regulate prospective clients in the same way. 
+Implementation 🏭: Using html tags I added the relevant video HTML and paid close attention to the styling of both the video and the video -content. I played with the z-index property in CSS and also had to find an alternative to the video, whgich was as aesthetically pleasing, for when the site is accessed via mobile. During the testing process, I would struggle with white space that I would see on the site when it was at Tablet size, to solve this I had to move the video element tags around until the space was not there. 
+Result 🏆: The video looks beautiful on a large screen and at mobile size it becomes an equally as beautiful picture. 
+Verdict ✅: This test passed.
 
 
-##### Test Planning: 
+Bugs: 🐞
+Bugs During Development:
+During the development process for this project i was fortuante to not have to battle with many annoying bugs. Listed below are a few issues that i faced and overcame during the course of the project.
 
+Radio Button Error:
 
+Bug 🕷: I wanted to use as many elements as possible in my form because I had gotten carried away with the variety on offer and temporarily lost sight of the importance of easy-user experience. The radio check box in the form would check both boxes, despite the question requiring the response of just one box..
 
-##### Testing Stories:
+Fix 🔧: I reworded the form and found that the question was now obselte! I got ride of the code and simplifyed the form. 
+Verdict ✅: This bug was squashed thanks to my mentors helpful __Keep It Simple Stupid__ mantra!
 
+Bug 🕷: A few elements were escaping the boundaries of the website and were causing an unwanted horizontal scroll.
+Fix 🔧: Using Unicorn Revealer (See credits for link) I was easily able to find the offending element and fix accordingly.
+Verdict ✅: This bug was squashed easily and meant I could continue to progress.
+Known Bugs:
+Here is a list of known bugs that exist on the site: ❌
 
-
-### Overall:
-
-
-### Features:
-
-
-
-## Bugs: 🐞
-
-#### Bugs During Development:
+A bug exists on the landing page video when it is viewed at 4K 2560px, in future I will solve the issue by using dev tools to re-size the relevant wrappers and containers of the video.
 
 
 
@@ -186,16 +215,27 @@ When deploying The Therapy Practice using GitHub Pages the following steps were 
 
 
 #### Running The Therapy Practice Locally
+Cloning The Therapy Practice from GitHub:
 
+* Navigate to <strong>'/mayasaffron/thetherapypractice'</strong>.
+* Click the green <strong>'Clone or Download'</strong> button.
+* Copy the <strong>url</strong> in the dropdown box.
+* Using your favourite <strong>IDE</strong> open up your preferred <strong>terminal</strong>.
+* Navigate to your desired file location. 
+* Copy the following <strong>code</strong> and input it into your terminal to clone Holiday Destinations.
+ ```git
+  git clone https://github.com/mayasaffron/thetherapypractice.git
+   ```
 
 
 
 ## Closing Notes:
-
+Developing this project has taught me not just about coding, but methodical thinking in general. I feel that HTML and CSS are second natire now! I have learnt the usefulness of Bootstrap and the importance of not over complicatingthe code.  In the future I would like to implement other features like a live chat feature and add payment and social media links to the footer. Said online payment and social media accounts do not currently exist, but will in the future!
 ## Credits: 💳
 
 #### Project Structure
-Used<a href="https://github.com/Geomint/holiday-destinations"></a>as a template for read me as it was excellent.  
+Used<a href="https://github.com/Geomint/holiday-destinations"></a>as a template for read me as it was excellent. 
+Used<a href="https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln/related?hl=en-GB">Unicorn Revealer</a>To help with the white space caused by stray elements. 
 
 #### Design 
 Used <a href="https://hatchful.shopify.com/your-logos"></a> To design my logo.
