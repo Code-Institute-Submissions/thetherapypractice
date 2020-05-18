@@ -1,530 +1,772 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/styles.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css" />
 
-<title>The Therapy Practice</title>
-</head>
-<body>
-	<header class="container-fluid">
-     <div class="row">
-     <div class="sticky-top">
-		<nav class="navbar navbar-expand-lg" id="Navbar">
-         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
-  </button>
-        <div class="d-none d-sm-none d-lg-block">
-        <a class="navbar-brand" href="#home" aria-label="Home">
-        <img src="assets/img/new-logo.png" alt="logo" class="img-fluid"></a>
+    <title>The Therapy Practice</title>
+  </head>
+  <body>
+    <header class="container-fluid">
+      <div class="row">
+        <div class="sticky-top">
+          <nav class="navbar navbar-expand-lg" id="Navbar">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"
+                ><i class="fas fa-bars"></i
+              ></span>
+            </button>
+            <div class="d-none d-sm-none d-lg-block">
+              <a class="navbar-brand" href="#home" aria-label="Home">
+                <img src="assets/img/new-logo.png" alt="logo" class="img-fluid"
+              /></a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#about" aria-label="About">About</a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="#help"
+                    aria-label="Things I Help With"
+                    >Things I Help With</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#approach" aria-label="Approach"
+                    >Approach</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="#working"
+                    aria-label="Working Together"
+                    >Working Together</a
+                  >
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#rates" aria-label="Rates">Rates</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact" aria-label="Contact"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section class="container-fluid" id="home">
+      <div class="d-block d-sm-none">
+        <div class="row">
+          <div class="still">
+            <img
+              src="assets/img/home-still.png"
+              alt="still"
+              class="img-fluid"
+            />
+            <div class="still-content">
+              <h1 class="uppercase">Welcome</h1>
+              <p>
+                I offer an intuitive safe space in which you can explore your
+                issues at your own pace. There are no age barriers to embarking
+                on your journey of Psychotherapy. Trauma can be generational and
+                it can start with you, the individual, to break the cycle and do
+                the self-development, so that future generations are not
+                burdened with emotional challenges.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-none d-sm-block">
+        <div class="video-wrap">
+          <div class="video-content container">
+            <h1 class="uppercase">Welcome</h1>
+            <p>
+              I offer an intuitive safe space in which you can explore your
+              issues at your own pace. There are no age barriers to embarking on
+              your journey of Psychotherapy. Trauma can be generational and it
+              can start with you, the individual, to break the cycle and do the
+              self-development, so that future generations are not burdened with
+              emotional challenges.
+            </p>
+          </div>
+          <div class="video-container">
+            <video controls muted autoplay loop mute>
+              <source src="assets/img/about-me.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 card">
+            <div class="card-body">
+              <h1 class="uppercase card-title">Charanjit Dosanjh</h1>
+            </div>
+            <img
+              class="img-fluid"
+              src="assets/img/hero.JPG"
+              alt="hero"
+              id="hero"
+            />
+          </div>
+
+          <div class="col-sm-6 card">
+            <div class="card-body">
+              <h1 class="uppercase card-title">Get to know me</h1>
+              <p class="card-text bio">
+                I am a first generation, UK born, Punjabi woman. I am fluent in
+                Punjabi and able to communicate in Urdu and Hindi, with this
+                comes an insight into cultural dynamics. I am a mother of 2
+                young adults. I live in London and am fully aware of the
+                challenges that come with fast-paced living. Self-development is
+                a never-ending journey, every person's story is unique. We are
+                forever evolving and each experience provides us with the
+                opportunity to grow.
+              </p>
+              <h1 class="uppercase card-title">My mission</h1>
+              <p class="card-text bio">
+                "I believe that everyone should have the opportunity to live
+                free of constraints, self-imposed or otherwise. It is through
+                our theraputic relationship that growth can occur."
+              </p>
+            </div>
+          </div>
         </div>
 
-  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="#about" aria-label="About">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#help" aria-label="Things I Help With">Things I Help With</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#approach" aria-label="Approach">Approach</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#working" aria-label="Working Together">Working Together</a>
-      </li>
-
-    <li class="nav-item">
-        <a class="nav-link" href="#rates" aria-label="Rates">Rates</a>
-      </li>
-
-      <li class="nav-item">
-        <a class="nav-link" href="#contact" aria-label="Contact">Contact</a>
-      </li>
-
-    </ul>
-  </div>
-  </nav>
-  </div>
-    </div>
-</header>
-
-<section class="container-fluid" id="home">
-<div class="d-block d-sm-none">
-<div class="row">
-<div class="still">
-<img src="assets/img/home-still.png" alt="still" class="img-fluid">
-<div class="still-content">
-<h1 class="uppercase"> Welcome</h1>
-<p>I offer an intuitive safe space in which you can explore your issues at your own
-            pace.
-            There are no age barriers to embarking on your journey of Psychotherapy. Trauma can be generational
-            and it can start with you, the individual, to break the cycle and do the self-development, so that future generations
-            are not burdened with emotional challenges. </p> </div>
-</div>
-</div>
-</div>
-
-<div class="d-none d-sm-block">
-<div class="video-wrap">
-<div class="video-content container">
-<h1 class="uppercase"> Welcome</h1>
-<p>I offer an intuitive safe space in which you can explore your issues at your own
-            pace.
-            There are no age barriers to embarking on your journey of Psychotherapy. Trauma can be generational
-            and it can start with you, the individual, to break the cycle and do the self-development, so that future generations
-            are not burdened with emotional challenges. </p> 
-</div>
-    <div class="video-container">
-  <video controls muted autoplay loop mute>
-  <source src="assets/img/about-me.mp4" type="video/mp4"></video>
-</div>
-</div>
-</div>
-
-</section>
-
-<section class="container-fluid" id="about">
-<div class="container">
-
-<div class="row">
-<div class="col-sm-6 card">
-<div class="card-body">
-  <h1 class="uppercase card-title">Charanjit Dosanjh</h1> </div>
-  <img class="img-fluid" src="assets/img/hero.JPG" alt="hero" id="hero">
-  </div>
- 
-<div class="col-sm-6 card">
-  <div class="card-body">
-   <h1 class="uppercase card-title">Get to know me</h1>
-    <p class="card-text bio"> I am a first generation, UK born, Punjabi woman.
-		I am fluent in Punjabi and able to communicate in Urdu and Hindi, with this comes an insight into cultural
-		dynamics.
-		I am a mother of 2 young adults.
-       
-        I live in London and am fully aware of the challenges that come with fast-paced living.
-		Self-development is a never-ending journey, every person's story is unique. We are forever evolving and each
-		experience provides us with the opportunity to grow.
-	</p>
-    <h1 class="uppercase card-title">My mission</h1>
-    <p class="card-text bio"> "I believe that everyone should have the opportunity to live free of constraints, self-imposed or otherwise. It is through our theraputic relationship that growth can occur."</p> 
-  </div>
-</div>
-</div>
-
-
- <div class="row">
-                <div class="col-sm-6 history">
-                    <h3 class="history-heading">
-                        Training <i class="fas fa-graduation-cap"></i>
-                    </h3>
-                     <div class="timeline-item" data-dates="1990 - 1992">
-                        <h4>London Hospital</h4>
-                        <p>Post graduate Occupational Therapy Training</p>
-                    </div>
-
-                    <div class="timeline-item" data-dates="1992 - 1995">
-                        <h4>Chiron Centre</h4>
-                        <p> 3 year Certificate in Biodynamic Psychotherapy</p>
-                    </div>
-                    <div class="timeline-item" data-dates="1995 - 1997">
-                        <h4>Chiron Centre</h4>
-                        <p>Diploma in supervised practice</p>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 history">
-                    <h3 class="history-heading">
-                        Work History <i class="fas fa-briefcase"></i>
-                    </h3>
-                <div class="history-items">
-                    <div class="timeline-item" data-dates="1995 - 2005">
-                        <h4>City and Hackney Mind</h4>
-                        <p>psychotherapist for Prescribed drugs project</p>
-                    </div>
-                    <div class="timeline-item" data-dates="2005 - present">
-                        <h4>Private Practice</h4>
-                        <p>Freelance Psychotherapist</p>
-                    </div>
-
-                    <div class="timeline-item 1" data-dates="2017 - 2019">
-                        <h4>Private Eating Disorders Clinic</h4>
-                        <p>Occupational Therapist</p>
-                    </div>
-                </div>
+        <div class="row">
+          <div class="col-sm-6 history">
+            <h3 class="history-heading">
+              Training <i class="fas fa-graduation-cap"></i>
+            </h3>
+            <div class="timeline-item" data-dates="1990 - 1992">
+              <h4>London Hospital</h4>
+              <p>Post graduate Occupational Therapy Training</p>
             </div>
- </div>
-</div>
-</section>
 
-<section class="container-fluid" id="help">
+            <div class="timeline-item" data-dates="1992 - 1995">
+              <h4>Chiron Centre</h4>
+              <p>3 year Certificate in Biodynamic Psychotherapy</p>
+            </div>
+            <div class="timeline-item" data-dates="1995 - 1997">
+              <h4>Chiron Centre</h4>
+              <p>Diploma in supervised practice</p>
+            </div>
+          </div>
 
-<div class="container">
-<div class="row">
-<div class="col-sm-12 col-md-12">
-<h1 class="uppercase"> Things I Help With</h1>
-<p class="help-opening"> In my time as a Psychotherapist, I have assisted a variety of people on their journey.  I am equipped to deal with most of the issues that manifest in peoples lives. Some themes come up time and time again and some of these are outlined below. I believe in organic connections and things happening at the right time. These are some of the challenges that 'chose me' as it were... 
-If your challenge does not appear below, please do not be disheartened, I'm pretty sure I can still help!</p>
-</div>
-</div>
+          <div class="col-sm-6 history">
+            <h3 class="history-heading">
+              Work History <i class="fas fa-briefcase"></i>
+            </h3>
+            <div class="history-items">
+              <div class="timeline-item" data-dates="1995 - 2005">
+                <h4>City and Hackney Mind</h4>
+                <p>psychotherapist for Prescribed drugs project</p>
+              </div>
+              <div class="timeline-item" data-dates="2005 - present">
+                <h4>Private Practice</h4>
+                <p>Freelance Psychotherapist</p>
+              </div>
 
-<div class="row">
-<div class=" col-sm-6 col-md-4 card">
-  <img src="https://images.unsplash.com/photo-1536611517872-e0d5493e2164?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80" class="card-img-top" alt="Greif">
-  <div class="card-body">
-    <h5 class="card-title">Greif & Loss</h5>
-    <p class="card-text general-sub bio">Death of a loved one can trigger overwhelming emotions, ranging from ; shock, disbelief, betrayal and sadness. Grief isn't only a response to death, it can be triggered by any type of loss, for example; moving home, divorce and changing career. Every loss is individual and valid. No two people will have the same reaction to the same event, our grieving mechanisms are a compilation of many factors, such as; our life experiences, our rearing and our personality. </p>
-  
-  </div>
-</div>
+              <div class="timeline-item 1" data-dates="2017 - 2019">
+                <h4>Private Eating Disorders Clinic</h4>
+                <p>Occupational Therapist</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<div class="col-sm-6 col-md-4 card">
-  <img src="https://images.unsplash.com/photo-1532178910-7815d6919875?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" class="card-img-top" alt="Depression">
-  <div class="card-body">
-    <h5 class="card-title">Depression</h5>
-    <p class="card-text bio">Living with depression can make it difficult to cope with daily life, for example; finding work, sustaining relationships and general inclusion in society. There has been a massive shift, but there is still a MAJOR societal stigma surrounding depression. The facts speak for themselves <a href="https://www.london.gov.uk/sites/default/files/gla_migrate_files_destination/Mental%20health%20report.pdf" class="depression-stat" target="_blank"> '914,300 adults of working age'  </a> suffer from depression in London, (in the UK) alone! Discrimination experienced by those living with depression can make recovery even harder.  It's nothing to be ashamed of and no one needs to suffer alone.</p>
-    
-  </div>
-</div>
+    <section class="container-fluid" id="help">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12">
+            <h1 class="uppercase">Things I Help With</h1>
+            <p class="help-opening">
+              In my time as a Psychotherapist, I have assisted a variety of
+              people on their journey. I am equipped to deal with most of the
+              issues that manifest in peoples lives. Some themes come up time
+              and time again and some of these are outlined below. I believe in
+              organic connections and things happening at the right time. These
+              are some of the challenges that 'chose me' as it were... If your
+              challenge does not appear below, please do not be disheartened,
+              I'm pretty sure I can still help!
+            </p>
+          </div>
+        </div>
 
-<div class="col-sm-6 col-md-4 card">
-  <img src="https://images.unsplash.com/photo-1570710020202-37829801d105?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80" class="card-img-top" alt="Child-Parent Relationships">
-  <div class="card-body">
-    <h5 class="card-title">Child-Parent Relationships</h5>
-   <p class="card-text bio">My children are my biggest achievement and I feel so blessed to be a parent. Although I think we can all agree, parenting is no picnic! I work with families & assist in reconciling differences by offering a safe none judgemental space for each party to have a voice. Together we will work toward achieving and maintaining open lines of communication; respecting boundaries with each other and deciding how best to handle the other challenges we face.</p>
-   
-  </div>
-</div>
-</div>
+        <div class="row">
+          <div class="col-sm-6 col-md-4 card">
+            <img
+              src="https://images.unsplash.com/photo-1536611517872-e0d5493e2164?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
+              class="card-img-top"
+              alt="Greif"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Greif & Loss</h5>
+              <p class="card-text general-sub bio">
+                Death of a loved one can trigger overwhelming emotions, ranging
+                from ; shock, disbelief, betrayal and sadness. Grief isn't only
+                a response to death, it can be triggered by any type of loss,
+                for example; moving home, divorce and changing career. Every
+                loss is individual and valid. No two people will have the same
+                reaction to the same event, our grieving mechanisms are a
+                compilation of many factors, such as; our life experiences, our
+                rearing and our personality.
+              </p>
+            </div>
+          </div>
 
-<div class="row">
-<div class=" col-sm-6 col-md-4 card">
-  <img src="https://images.unsplash.com/photo-1519165678289-8dec49bc74f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1947&q=80" class="card-img-top" alt="Anxiety">
-  <div class="card-body">
-    <h5 class="card-title">Anxiety</h5>
-    <p class="card-text bio">I have effective results with treating anxiety from a body orientated approach due to the varying physical symptoms experienced in the body.
-We have a primitive response to danger & the autonomic nervous system can’t differentiate between the stress of being caught in traffic or being chased by a man-eating tiger. Avoiding anxiety & worrying about it makes it worse, one needs to recognise their triggers and begin to break their cycle of anxiety. </p>
-   
-  </div>
-</div>
-
-<div class=" col-sm-6 col-md-4 card">
-  <img src="https://images.unsplash.com/photo-1558023131-908cab000962?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1100&q=80" class="card-img-top" alt="Identity">
-  <div class="card-body">
-    <h5 class="card-title">Issues surrounding Identity</h5>
-   <p class="card-text bio">Identity is part of a person’s self–conception & self-perception. 
-  As a second-generation Punjabi (Asian) woman I understand how it feels to struggle with some aspects of one's identity.
-My personal and professional experience of working with this has also allowed me to understand other forms of identity issues, such as; sexual orientation, gender and race. It is also important to understand that many of us have dual identity's; you may have a family-culture, a religious culture and a socio-economic culture. All of these cultures form aspects of your identity and naturally, we sometimes struggle to integrate our various identities. </p>
-   
-  </div>
-</div>
-
-<div class=" col-sm-6 col-md-4 card">
-  <img src="https://images.unsplash.com/photo-1535578195295-f2329b3cdb8d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80" class="card-img-top" alt="Relationship">
-  <div class="card-body">
-    <h5 class="card-title">Relationship Breakdown </h5>
-   <p class="card-text bio">In my experience, our relationships are based on our primary relationships. Through our self-awareness, we can start to recognise the patterns that have led to our current ways of relating to others. </p>  
-
-  </div>
-</div>
-
-<div class="col-sm-6 card">
-  <img src="https://images.unsplash.com/photo-1515091110873-2a9680d5e323?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80" class="card-img-top" alt="Relationship">
-  <div class="card-body">
-    <h5 class="card-title">Relationship Breakdown </h5>
-
-<h4 class="card-title">Exploration with your significant other</h4>
-<p class="card-text bio"> 
-This includes whoever you are struggling to have a healthy relationship with, for example; family members, romantic partners, friends and colleagues. 
-Once the issues are brought to the surface we can then look at how you can best effectively communicate in your relationship/s.</p>
-</div>
-</div>
-
-
-<div class="col-sm-6 card">
-  <img src="https://images.unsplash.com/photo-1516659257916-7be846591235?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" class="card-img-top" alt="Relationship">
-  <div class="card-body">
-    <h5 class="card-title">Relationship Breakdown </h5>
-
-<h4 class="card-title">Individual exploration</h4>
-<p class="card-text bio">
-Everyone is at a unique stage of their journey.
-If you are planning to embark on a relationship you may want to explore your way of being and what a good relationship for YOU looks like.
-If you want to improve your current relationship or even, want to end a relationship, you may want to do it as safely as possible.</p>  
-
-  </div>
-</div>
-</div>
-</div>
-
-
-</section>
-
-<section class="container-fluid" id="approach">
-
-<div class="container">
-<div class="row">
-<div class="col-sm-12">
-<h1 class="uppercase"> Approach</h1>
-<p class="help-opening"> I am a trained Occupational Thearpist and Hypno therapist as well as Psychotherapist, my approach
-				is influenced by my entire professioanl experience. Here are just a few approaches I use with my
-				clients, see if any of them resonate with you!</p>
-</div>
-</div>
-
-
-<div class="row approaches">
-		<div class="col-sm-4">
-		
-				<h2 class="uppercase"> Psychodynamic Perspective</h2>
-		
-			<p class="general-sub help-opening">Most of us have accepted that our childhood laid the foundations of our current
-				behaviour (good or bad). The Psychodynamic perspctive interprets the mental and emotional processes
-				behind the behaviour to find their patterns and start to work with them.
-				<a href=" https://www.simplypsychology.org/psychodynamic.html" target="_blank"
-					class="approach-link" aria-label="Read more about it here" rel="noopener">Read more about it here</a></p>
-		</div>
-
-		<div class="col-sm-4">
-			
-				<h2 class="uppercase"> Mindfulness and Visualisation </h2>
-			
-		<p class="help-opening"> I was practising mindfulness and visualisation before it was cool! I quickly learnt
-				that people do not always live in the present, we are anxious about the future and constantly stressed.
-				I needed a way to centre my clients and encourage them to live in the present. I found visualisation a vital
-				technique to help my clients explore their brains capacity to go on a journey, which would build their
-				confidence in their ability to change their way of being.
-				<a href=" https://www.huffpost.com/entry/thriving-with-mindful-vis_b_4616723?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAK3N4Dk1lrV8MM8QGwvU26JHQj67_ctK5WytgDUh_PscHgwFFJ6dU_BmU97iwd6eTAV3Rt10sSD6lpZMHx1TJFY9o59iBgR4KkRcdvj-2XCAU2PZTRZZosFatgEwWglZgDJHNFtoOj0RL1eBKgGssnCXf3UG-wEuNgCi5p4CYRGy"
-					target="_blank" class="approach-link" aria-label="Read more about it here" rel="noopener">Read more about it here</a></p>
-		</div>
-
-		<div class="col-sm-4">
-			
-				<h2 class="uppercase"> Transactional Analysis Theory</h2>
-			
-			<p class="help-opening"> I have found Trans-Actional analysis particularly useful for working with the inner voice. Each of us hears aspects of our own lives through different voices. For example, you may hear
-                words of encouragement in a loving, parental, positive voice, whereas, if you feel that you have not done as well as you should have in a presentation, you may scold yourself and it may be heard in the voice of a less loving, more critical parent..
-                Fundamentally Transactional analysis theory looks at our ego states in the child, adult and parent, this can
-                assist in changing repetitive patterns of behaviour, enabling you to forge better relationships.
-				<a href=" https://www.goodtherapy.org/learn-about-therapy/types/transactional-analysis" target="_blank"
-					class="approach-link" aria-label="Read more about it here" rel="noopener">Read more about it here </a></p>
-		</div>
-	</div>
-</div>
-</section>
-
-<section class="container-fluid" id="working">
-
-<div class="container">
-<div class="row">
-<div class="col-sm-12">
-<h1 class="uppercase"> Working together</h1>
-</div>
-</div>
-
-<div class="row explanation">
-<div class="col-sm-12">
-		<h4 class="uppercase"> What is Psychotherapy?</h4>
-		<p class="help-opening"> People often confuse Psychotherapy with Counselling or Psychiatry. Psychotherapy is commonly known as the 'talking therapy', this is because people who are struggling with all different types of issues, will sit with a psychotherapist and talk through the issues with the aim of bringing the deeper issues/ triggers to the surface. If you would like to know more, <a href="https://www.youtube.com/watch?v=Zd5IubeNkhA&t=145s" target="_blank" class="approach-link" aria-label="What is Psychotherapy" rel="noopener">Watch this VERY informative and concise video delivered by the UKCP.</a></p>
-	</div>
-</div>
-
-<div class="row">
-<div class="col-xs-12 col-sm-6 tech-container">
- <video controls muted autoplay loop mute>
-  <source src="assets/img/tech.mp4" type="video/mp4"></video></div>
-
-
-<div class="col-sm-6 tech-container">
-<h4 class="uppercase"> Virtual Psychotherapy</h4>
-<p class="help-opening"> I embarked on my Psychotherapy career when the world was different, technology was nowhere near as developed as it is now! This of course has its many benefits, however in my opinion, contributes to our heightened levels of stress and anxiety and lowered level of deep human connections. 
-
-I am going to meet you in the middle. We will discuss everything in depth, however we will do this via a <strong> virtual </strong> platform. 
-
-Since COVID 19,  I hope that we are collectively more aware of how important it is to look after our inneer world AND how much we can still achieve virtually. 
-
-I realise how tough it is to make sure we prioritise ourselves, so I wanted to remove the hassle of travel and connect with you in your preferred space.   
-I will carry out sessions virtually using platforms such as; facetime skype and zoom .  </p>
-</div>
-</div>
-</div>
-
-</section>
-
-<section class="container-fluid" id="rates">
-<div class="container">
-<div class="row">
-<div class="col-sm-12">
-<h1 class="uppercase"> Rates</h1>
-<p class="help-opening">  You can pay via Paypal and bank transfer, all packages include an hour-long initial assessment, moving forward sessions are 50 minutes long.</p>
-</div>
-</div>
-
-<div class="row">
-<div class="col-sm-3">
-<div class="col-sm-12">
-<h3>Individual Package</h3>
-</div>
-
-<ul class="list-group">
-  <li class="list-group-item">6 sessions</li>
-  <li class="list-group-item">8 sessions</li>
-  <li class="list-group-item">12 sessions</li>
-</ul>
-</div>
-
-<div class="col-sm-3">
-<div class="col-sm-12">
-<h3> Cost</h3>
-</div>
-<ul class="list-group">
-  <li class="list-group-item">£500</li>
-  <li class="list-group-item">£600</li>
-  <li class="list-group-item">£800</li>
-</ul>
-</div>
-
-<div class="col-sm-3">
-<div class="col-sm-12">
-<h3>Group Package</h3>
-</div>
-<ul class="list-group">
-  <li class="list-group-item">6 sessions</li>
-  <li class="list-group-item">8 sessions</li>
-  <li class="list-group-item">12 sessions</li>
-</ul>
-</div>
-
-<div class="col-sm-3">
-<div class="col-sm-12">
-<h3> Cost</h3>
-</div>
-<ul class="list-group">
-  <li class="list-group-item">£800</li>
-  <li class="list-group-item">£1000</li>
-  <li class="list-group-item">£1400</li>
-</ul>
-</div>
-</div>
-
-</div>
-</section>
-
-<section class="container-fluid" id="contact">
-<div class="container">
-<div class="row">
-<div class="col-xs-6 col-sm-12">
-<h2 class="uppercase"> consultation?</h2>
-<p class="help-opening"> Please complete this form, say as little or as much as you would like and I will respond as soon as I can. <a href="terms.html" target="_blank"  class="terms-link" aria-label="Terms and conditions"> Terms and conditions of sessions can be found here </a> </p>
-</div>
-</div>
-
-
-
-<form>
-<div class="container-fluid">
-<div class="row">
-<div class="form-group col-sm-6">
-
-    <label for="name">Name</label>
-    <input type="text" class="form-control" id="name" placeholder="Your name">
-  </div>
-
-  <div class="form-group col-sm-6">
-    <label for="email-address">Email address</label>
-    <input type="email" class="form-control" id="email-address" placeholder="Your email">
-  </div>
-
-</div>
-
-
-<div class="row">
-
-  <div class="form-row my-gender col-sm-6">
-      <label>Gender</label>
-      <select class="custom-select mr-sm-2 form-questions">
-        <option selected>Gender</option>
-        <option value="1">Male</option>
-        <option value="2">Female</option>
-      </select>
-
-    </div>
- 
-
-        <div class="form-row my-age col-sm-6">
-      <label>Age</label>
-      <select class="custom-select mr-sm-2 form-questions">
-        <option selected>Age</option>
-        <option value="1">18 or under</option>
-        <option value="1">18-25</option>
-        <option value="2">25-35</option>
-         <option value="1">35-50</option>
-        <option value="2">50-70</option>
-        <option value="2">70 and over</option>
-      </select>
-    </div>
-
-</div>
-
-<div class="row">
-  <div class="form-row col-sm-12">
-      <label>Conditions</label>
-      <select class="custom-select mr-sm-2 form-questions">
-        <option selected>Do you have a diagnosis of any mental health condition/s</option>
-        <option value="1">Yes</option>
-        <option value="1">No</option>
-      </select>
-    </div>
-  </div>
-
-<div class="row">
-<div class="form-group col-sm-12">
-    <label for="text-area-2">What would you like to achieve from our work?</label>
-    <textarea class="form-control" id="text-area-2" rows="3"></textarea>
-  </div>
-</div>
-
-<div class="row">
-   <button class="btn btn-primary in-touch" type="submit">Get In Touch!</button>
-  </div>
-  </div>
-</form>
-
-</div>
-</section>
-
-<footer class="container-fluid">
-
-	<div class="row">
-     <div class="col-sm-4">
-                <h5 class="uppercase general-sub"> Terms and Conditions</h5>
-                <p> Before booking a consultation you are required to agree to the terms and conditions.</p> 
-                 <a href="terms.html" target="_blank" class="terms" aria-label="Terms and conditions">
-                    <i class="fa fa-download hvr-back-pulse" aria-hidden="true"><span class="sr-only">Click here to have a read</span></i> 
+          <div class="col-sm-6 col-md-4 card">
+            <img
+              src="https://images.unsplash.com/photo-1532178910-7815d6919875?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+              class="card-img-top"
+              alt="Depression"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Depression</h5>
+              <p class="card-text bio">
+                Living with depression can make it difficult to cope with daily
+                life, for example; finding work, sustaining relationships and
+                general inclusion in society. There has been a massive shift,
+                but there is still a MAJOR societal stigma surrounding
+                depression. The facts speak for themselves
+                <a
+                  href="https://www.london.gov.uk/sites/default/files/gla_migrate_files_destination/Mental%20health%20report.pdf"
+                  class="depression-stat"
+                  target="_blank"
+                >
+                  '914,300 adults of working age'
                 </a>
+                suffer from depression in London, (in the UK) alone!
+                Discrimination experienced by those living with depression can
+                make recovery even harder. It's nothing to be ashamed of and no
+                one needs to suffer alone.
+              </p>
             </div>
-           
-            <div class="col-sm-4">
-                <h5 class="uppercase general-sub"> Get in touch!<i class="fas fa-paper-plane" aria-hidden="true"></i></h5>
-                <p>I look forward to working with you, <a href="#contact" class="footer-contact">Click here to get started!</a></p>
-            </div>
+          </div>
 
-            <div class="col-sm-4">
-                <h5 class="uppercase general-sub"> Accredited  by</h5>
-                <img src="https://www.psychotherapy.org.uk/wp-content/themes/ukcp/assets/images/logo.png"  alt="logo" class="ukcp-logo img-fluid">
+          <div class="col-sm-6 col-md-4 card">
+            <img
+              src="https://images.unsplash.com/photo-1570710020202-37829801d105?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80"
+              class="card-img-top"
+              alt="Child-Parent Relationships"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Child-Parent Relationships</h5>
+              <p class="card-text bio">
+                My children are my biggest achievement and I feel so blessed to
+                be a parent. Although I think we can all agree, parenting is no
+                picnic! I work with families & assist in reconciling differences
+                by offering a safe none judgemental space for each party to have
+                a voice. Together we will work toward achieving and maintaining
+                open lines of communication; respecting boundaries with each
+                other and deciding how best to handle the other challenges we
+                face.
+              </p>
             </div>
+          </div>
         </div>
 
+        <div class="row">
+          <div class="col-sm-6 col-md-4 card">
+            <img
+              src="https://images.unsplash.com/photo-1519165678289-8dec49bc74f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1947&q=80"
+              class="card-img-top"
+              alt="Anxiety"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Anxiety</h5>
+              <p class="card-text bio">
+                I have effective results with treating anxiety from a body
+                orientated approach due to the varying physical symptoms
+                experienced in the body. We have a primitive response to danger
+                & the autonomic nervous system can’t differentiate between the
+                stress of being caught in traffic or being chased by a
+                man-eating tiger. Avoiding anxiety & worrying about it makes it
+                worse, one needs to recognise their triggers and begin to break
+                their cycle of anxiety.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4 card">
+            <img
+              src="https://images.unsplash.com/photo-1558023131-908cab000962?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1100&q=80"
+              class="card-img-top"
+              alt="Identity"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Issues surrounding Identity</h5>
+              <p class="card-text bio">
+                Identity is part of a person’s self–conception &
+                self-perception. As a second-generation Punjabi (Asian) woman I
+                understand how it feels to struggle with some aspects of one's
+                identity. My personal and professional experience of working
+                with this has also allowed me to understand other forms of
+                identity issues, such as; sexual orientation, gender and race.
+                It is also important to understand that many of us have dual
+                identity's; you may have a family-culture, a religious culture
+                and a socio-economic culture. All of these cultures form aspects
+                of your identity and naturally, we sometimes struggle to
+                integrate our various identities.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4 card">
+            <img
+              src="https://images.unsplash.com/photo-1535578195295-f2329b3cdb8d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
+              class="card-img-top"
+              alt="Relationship"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Relationship Breakdown</h5>
+              <p class="card-text bio">
+                In my experience, our relationships are based on our primary
+                relationships. Through our self-awareness, we can start to
+                recognise the patterns that have led to our current ways of
+                relating to others.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-sm-6 card">
+            <img
+              src="https://images.unsplash.com/photo-1515091110873-2a9680d5e323?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80"
+              class="card-img-top"
+              alt="Relationship"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Relationship Breakdown</h5>
+
+              <h4 class="card-title">
+                Exploration with your significant other
+              </h4>
+              <p class="card-text bio">
+                This includes whoever you are struggling to have a healthy
+                relationship with, for example; family members, romantic
+                partners, friends and colleagues. Once the issues are brought to
+                the surface we can then look at how you can best effectively
+                communicate in your relationship/s.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-sm-6 card">
+            <img
+              src="https://images.unsplash.com/photo-1516659257916-7be846591235?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+              class="card-img-top"
+              alt="Relationship"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Relationship Breakdown</h5>
+
+              <h4 class="card-title">Individual exploration</h4>
+              <p class="card-text bio">
+                Everyone is at a unique stage of their journey. If you are
+                planning to embark on a relationship you may want to explore
+                your way of being and what a good relationship for YOU looks
+                like. If you want to improve your current relationship or even,
+                want to end a relationship, you may want to do it as safely as
+                possible.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid" id="approach">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h1 class="uppercase">Approach</h1>
+            <p class="help-opening">
+              I am a trained Occupational Thearpist and Hypno therapist as well
+              as Psychotherapist, my approach is influenced by my entire
+              professioanl experience. Here are just a few approaches I use with
+              my clients, see if any of them resonate with you!
+            </p>
+          </div>
+        </div>
+
+        <div class="row approaches">
+          <div class="col-sm-4">
+            <h2 class="uppercase">Psychodynamic Perspective</h2>
+
+            <p class="general-sub help-opening">
+              Most of us have accepted that our childhood laid the foundations
+              of our current behaviour (good or bad). The Psychodynamic
+              perspctive interprets the mental and emotional processes behind
+              the behaviour to find their patterns and start to work with them.
+              <a
+                href=" https://www.simplypsychology.org/psychodynamic.html"
+                target="_blank"
+                class="approach-link"
+                aria-label="Read more about it here"
+                rel="noopener"
+                >Read more about it here</a
+              >
+            </p>
+          </div>
+
+          <div class="col-sm-4">
+            <h2 class="uppercase">Mindfulness and Visualisation</h2>
+
+            <p class="help-opening">
+              I was practising mindfulness and visualisation before it was cool!
+              I quickly learnt that people do not always live in the present, we
+              are anxious about the future and constantly stressed. I needed a
+              way to centre my clients and encourage them to live in the
+              present. I found visualisation a vital technique to help my
+              clients explore their brains capacity to go on a journey, which
+              would build their confidence in their ability to change their way
+              of being.
+              <a
+                href=" https://www.huffpost.com/entry/thriving-with-mindful-vis_b_4616723?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAK3N4Dk1lrV8MM8QGwvU26JHQj67_ctK5WytgDUh_PscHgwFFJ6dU_BmU97iwd6eTAV3Rt10sSD6lpZMHx1TJFY9o59iBgR4KkRcdvj-2XCAU2PZTRZZosFatgEwWglZgDJHNFtoOj0RL1eBKgGssnCXf3UG-wEuNgCi5p4CYRGy"
+                target="_blank"
+                class="approach-link"
+                aria-label="Read more about it here"
+                rel="noopener"
+                >Read more about it here</a
+              >
+            </p>
+          </div>
+
+          <div class="col-sm-4">
+            <h2 class="uppercase">Transactional Analysis Theory</h2>
+
+            <p class="help-opening">
+              I have found Trans-Actional analysis particularly useful for
+              working with the inner voice. Each of us hears aspects of our own
+              lives through different voices. For example, you may hear words of
+              encouragement in a loving, parental, positive voice, whereas, if
+              you feel that you have not done as well as you should have in a
+              presentation, you may scold yourself and it may be heard in the
+              voice of a less loving, more critical parent.. Fundamentally
+              Transactional analysis theory looks at our ego states in the
+              child, adult and parent, this can assist in changing repetitive
+              patterns of behaviour, enabling you to forge better relationships.
+              <a
+                href=" https://www.goodtherapy.org/learn-about-therapy/types/transactional-analysis"
+                target="_blank"
+                class="approach-link"
+                aria-label="Read more about it here"
+                rel="noopener"
+                >Read more about it here
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid" id="working">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h1 class="uppercase">Working together</h1>
+          </div>
+        </div>
+
+        <div class="row explanation">
+          <div class="col-sm-12">
+            <h4 class="uppercase">What is Psychotherapy?</h4>
+            <p class="help-opening">
+              People often confuse Psychotherapy with Counselling or Psychiatry.
+              Psychotherapy is commonly known as the 'talking therapy', this is
+              because people who are struggling with all different types of
+              issues, will sit with a psychotherapist and talk through the
+              issues with the aim of bringing the deeper issues/ triggers to the
+              surface. If you would like to know more,
+              <a
+                href="https://www.youtube.com/watch?v=Zd5IubeNkhA&t=145s"
+                target="_blank"
+                class="approach-link"
+                aria-label="What is Psychotherapy"
+                rel="noopener"
+                >Watch this VERY informative and concise video delivered by the
+                UKCP.</a
+              >
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 tech-container">
+            <video controls muted autoplay loop mute>
+              <source src="assets/img/tech.mp4" type="video/mp4" />
+            </video>
+          </div>
+
+          <div class="col-sm-6 tech-container">
+            <h4 class="uppercase">Virtual Psychotherapy</h4>
+            <p class="help-opening">
+              I embarked on my Psychotherapy career when the world was
+              different, technology was nowhere near as developed as it is now!
+              This of course has its many benefits, however in my opinion,
+              contributes to our heightened levels of stress and anxiety and
+              lowered level of deep human connections. I am going to meet you in
+              the middle. We will discuss everything in depth, however we will
+              do this via a <strong> virtual </strong> platform. Since COVID 19,
+              I hope that we are collectively more aware of how important it is
+              to look after our inneer world AND how much we can still achieve
+              virtually. I realise how tough it is to make sure we prioritise
+              ourselves, so I wanted to remove the hassle of travel and connect
+              with you in your preferred space. I will carry out sessions
+              virtually using platforms such as; facetime skype and zoom .
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid" id="rates">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h1 class="uppercase">Rates</h1>
+            <p class="help-opening">
+              You can pay via Paypal and bank transfer, all packages include an
+              hour-long initial assessment, moving forward sessions are 50
+              minutes long.
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-3">
+            <div class="col-sm-12">
+              <h3>Individual Package</h3>
+            </div>
+
+            <ul class="list-group">
+              <li class="list-group-item">6 sessions</li>
+              <li class="list-group-item">8 sessions</li>
+              <li class="list-group-item">12 sessions</li>
+            </ul>
+          </div>
+
+          <div class="col-sm-3">
+            <div class="col-sm-12">
+              <h3>Cost</h3>
+            </div>
+            <ul class="list-group">
+              <li class="list-group-item">£500</li>
+              <li class="list-group-item">£600</li>
+              <li class="list-group-item">£800</li>
+            </ul>
+          </div>
+
+          <div class="col-sm-3">
+            <div class="col-sm-12">
+              <h3>Group Package</h3>
+            </div>
+            <ul class="list-group">
+              <li class="list-group-item">6 sessions</li>
+              <li class="list-group-item">8 sessions</li>
+              <li class="list-group-item">12 sessions</li>
+            </ul>
+          </div>
+
+          <div class="col-sm-3">
+            <div class="col-sm-12">
+              <h3>Cost</h3>
+            </div>
+            <ul class="list-group">
+              <li class="list-group-item">£800</li>
+              <li class="list-group-item">£1000</li>
+              <li class="list-group-item">£1400</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-6 col-sm-12">
+            <h2 class="uppercase">consultation?</h2>
+            <p class="help-opening">
+              Please complete this form, say as little or as much as you would
+              like and I will respond as soon as I can.
+              <a
+                href="terms.html"
+                target="_blank"
+                class="terms-link"
+                aria-label="Terms and conditions"
+              >
+                Terms and conditions of sessions can be found here
+              </a>
+            </p>
+          </div>
+        </div>
+
+        <form>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="form-group col-sm-6">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="Your name"
+                />
+              </div>
+
+              <div class="form-group col-sm-6">
+                <label for="email-address">Email address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email-address"
+                  placeholder="Your email"
+                />
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="form-row my-gender col-sm-6">
+                <label>Gender</label>
+                <select class="custom-select mr-sm-2 form-questions">
+                  <option selected>Gender</option>
+                  <option value="1">Male</option>
+                  <option value="2">Female</option>
+                </select>
+              </div>
+
+              <div class="form-row my-age col-sm-6">
+                <label>Age</label>
+                <select class="custom-select mr-sm-2 form-questions">
+                  <option selected>Age</option>
+                  <option value="1">18 or under</option>
+                  <option value="1">18-25</option>
+                  <option value="2">25-35</option>
+                  <option value="1">35-50</option>
+                  <option value="2">50-70</option>
+                  <option value="2">70 and over</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="form-row col-sm-12">
+                <label>Conditions</label>
+                <select class="custom-select mr-sm-2 form-questions">
+                  <option selected
+                    >Do you have a diagnosis of any mental health
+                    condition/s</option
+                  >
+                  <option value="1">Yes</option>
+                  <option value="1">No</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="form-group col-sm-12">
+                <label for="text-area-2"
+                  >What would you like to achieve from our work?</label
+                >
+                <textarea
+                  class="form-control"
+                  id="text-area-2"
+                  rows="3"
+                ></textarea>
+              </div>
+            </div>
+
+            <div class="row">
+              <button class="btn btn-primary in-touch" type="submit">
+                Get In Touch!
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer class="container-fluid">
+      <div class="row">
+        <div class="col-sm-4">
+          <h5 class="uppercase general-sub">Terms and Conditions</h5>
+          <p>
+            Before booking a consultation you are required to agree to the terms
+            and conditions.
+          </p>
+          <a
+            href="terms.html"
+            target="_blank"
+            class="terms"
+            aria-label="Terms and conditions"
+          >
+            <i class="fa fa-download hvr-back-pulse" aria-hidden="true"
+              ><span class="sr-only">Click here to have a read</span></i
+            >
+          </a>
+        </div>
+
+        <div class="col-sm-4">
+          <h5 class="uppercase general-sub">
+            Get in touch!<i class="fas fa-paper-plane" aria-hidden="true"></i>
+          </h5>
+          <p>
+            I look forward to working with you,
+            <a href="#contact" class="footer-contact"
+              >Click here to get started!</a
+            >
+          </p>
+        </div>
+
+        <div class="col-sm-4">
+          <h5 class="uppercase general-sub">Accredited by</h5>
+          <img
+            src="https://www.psychotherapy.org.uk/wp-content/themes/ukcp/assets/images/logo.png"
+            alt="logo"
+            class="ukcp-logo img-fluid"
+          />
+        </div>
+      </div>
     </footer>
-	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js">
-	</script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js">
-	</script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js">
-	</script>
-</body>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  </body>
 </html>
